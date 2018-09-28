@@ -1,0 +1,65 @@
+h1.title1{
+	font-family:Roboto;
+    font-size: 36px;
+	
+}
+
+hr{
+	width: 730px;	
+	
+}
+
+div{
+	font-family:Roboto;
+    font-size: 20px;
+	padding: 0px 350px 0px 330px;
+	line-height: 26px;
+	margin-top: 40px;
+	background-color: white;
+}
+
+h1{
+	font-size: 36px;
+	
+}
+
+h2{
+	font-size: 32px;
+	
+}
+
+ul{
+	line-height: 40px;
+}
+
+img{
+	height: 75%;
+	width: 75%;
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    float: top;
+}
+
+p.para2{
+	border: 2px solid red;
+    border-radius: 5px;
+	border-color: #def6ed;
+	background-color: #def6ed;
+}
+
+​
+
+
+
+
+
+
