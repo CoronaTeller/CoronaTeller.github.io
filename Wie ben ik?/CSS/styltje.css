@@ -17,14 +17,8 @@ button{
     font-size: 20px;
 }
 
-body{
-    background-image: url("witje.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
 img{
-   float: right;
-   margin: 10px;
+   width: 300px;
+   height: auto;
+   padding: 10px 100px 0px 100px;
 }
