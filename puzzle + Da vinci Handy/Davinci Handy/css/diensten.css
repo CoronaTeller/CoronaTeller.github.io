@@ -1,0 +1,709 @@
+.centerpage{
+    max-width: 1000px;
+    margin: auto;  
+}
+
+.footer{
+   padding: 5px;
+   text-align: right;
+   max-width: 100%;
+   background-color: #222931;
+   color: white;
+   margin-top: 30px;
+}
+
+.naamFooter{
+	position: relative;
+	right: 200px;
+}
+
+.item8 {grid-area: img1;}
+.item9 {grid-area: img2;}
+.item10 {grid-area: img3;}
+
+/*grid hover*/
+.grid-container{
+  display: grid;
+  grid-template-areas:
+  'img1 img2 img3';
+  position: relative;
+  overflow: hidden;
+  top: 460px;
+}
+
+.grid-container > div{
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 2px 0;
+  font-size: 30px;
+}
+
+.item1{
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.item1:hover{
+	color: #222931;
+	opacity: 0.5;
+    }
+
+.item2:hover{
+	color: #222931;
+	opacity: 0.5;
+}
+
+.item3:hover{
+	color: #222931;
+	opacity: 0.5;
+}
+
+body{
+	font-family: 'Archivo', sans-serif;
+	margin: 0px;
+}
+
+/*logo + header position*/
+.header{
+	position: absolute;
+	top: 90px;
+	left: 0px;
+    max-width: 100%;
+    z-index: -2;
+}
+
+.logo{
+	position: relative;
+	left: 60px;
+	top: 20px;
+}
+
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #222931;
+    max-width: 950px;
+    margin-top: 40px;
+	z-index: 1;
+	margin-left: 25px;
+    font-size: 12px;
+}
+
+/*nav bar dropdowns + positions*/
+li{
+    float: left;
+    margin-left: 20px;
+}
+
+li a, .dropbtn{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #ffe718;
+    color: black;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #222931;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.dropdown-content a{
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover{
+	background-color: #ffe718;
+	color: #222931;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.banner1{
+	z-index: 2;
+}
+.banner1:hover{
+    opacity: 0.3;
+}
+
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: #222931;
+    background-color: #ffe718;
+    margin-top: 500px;
+    max-width: 100%;
+}
+
+small{
+    font-size: 15px;
+    font-weight: 500px;
+}
+
+.ptext{
+   font-size: 35px;
+}
+
+.psmalltext{
+	font-size: 16px;
+}
+
+.button1{
+	display: block;
+	font-size: 15px;
+	background-color: white;
+	padding: 12px 64px;
+	float: right;
+	margin-right: 250px;
+	border: none;
+}
+
+.button1:hover{
+	background-color: #222931;
+	color: white;
+	transition: 0.3s;
+}
+
+
+.footer1{
+	position: absolute;
+	max-width: 100%;
+	min-height: 200px;
+	top: 1378px;
+}
+
+.fa-angle-down{
+	position: relative;
+	left: 5px;
+}
+
+.item4 { grid-area: img4; max-width: 300px;}
+.item5 { grid-area: img5; max-width: 300px;}
+.item6 { grid-area: img6; max-width: 300px;}
+
+.grid-container1{
+  	display: grid;
+ 	grid-template-areas: 'img4 img5 img6';
+  	grid-gap: 40px;
+	position: relative;
+  	top: 250px;
+}
+
+.grid-container1 > div{
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  font-size: 30px;
+  height: 100px;
+
+}
+
+/*button hovers*/
+.button2{
+    background-color: #ffe718;
+    width: 300px;
+    height: 80px;
+    font-size: 25px;
+    float: left;
+    border: none;
+}
+
+.button2:hover{
+	background-color: #222931;
+	color: white;
+	transition: 0.3s;
+}
+
+.button3{
+    background-color: #ffe718;
+    width: 300px;
+    height: 80px;
+    border: none;
+}
+
+.button3:hover{
+	background-color: #222931;
+	color: white;
+	transition: 0.3s;
+}
+
+.button4{
+    background-color: #ffe718;
+    width: 300px;
+    height: 80px;
+    border: none;
+}
+
+.button4:hover{
+    background-color: #222931;
+	color: white;
+    transition: 0.3s;
+}
+
+.item8:hover .overlayitem8{
+    opacity: 0.8;
+    background: #222931;
+    transition-duration: 0.4s;
+}
+
+.textitem8{
+    color: white;
+    position: absolute;
+    left: 40%;
+    right: 0;
+    top: 63%;
+    bottom: 0;
+    transform: translate(-50%, -50%);
+}
+
+.gtext{
+    font-size: 32px;
+    text-decoration: none;
+    color: white;
+}
+
+.overlayitem9{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 350px;
+    left: 349px;
+    opacity: 0;
+    transition: .4s, ease;
+    background: #222931;
+    transition-duration: 0.4s;
+}
+
+.item9:hover .overlayitem9{
+    opacity: 0.8;
+    background: #222931;
+    transition-duration: 0.4s;
+}
+
+.textitem9{
+    color: white;
+    position: absolute;
+    left: 50%;
+    right: 0;
+    top: 63%;
+    bottom: 0;
+    transform: translate(-50%, -50%);
+}
+
+.overlayitem10{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 16px;
+    left: 683px;
+    opacity: 0;
+    transition: .4s, ease;
+    background: #222931;
+    transition-duration: 0.4s;
+}
+
+.item10:hover .overlayitem10{
+    opacity: 0.8;
+    background: #222931;
+    transition-duration: 0.4s;
+}
+
+.textitem10{
+    color: white;
+    position: absolute;
+    left: 50%;
+    right: 0;
+    top: 63%;
+    bottom: 0;
+    transform: translate(-50%, -50%);
+}
+
+/*all position*/
+.contact{
+	height: 50px;
+	width: 50px;
+	float: left;
+	margin-left: 20px;
+	left: 4px;
+}
+
+.fa-handshake{
+	float: left;
+	top: 7px;
+	margin-left: 20px;
+	position: relative;
+	font-size: 40px;
+	z-index: 3;
+}
+
+.fa-toolbox{
+	float: left;
+	margin-left: 20px;
+	position: relative;
+	font-size: 40px;
+	z-index: 3;
+}
+
+.fa-envelope{
+	float: left;
+	margin-left: 20px;
+	position: relative;
+	font-size: 40px;
+	z-index: 3;
+	top: 2px;
+}
+
+.deal{
+	font-size: 22px;
+	right: 50px;
+	top: 2px;
+	position: relative;
+	bottom: 5px;
+	font-weight: 600px;
+	color: #222931;
+}
+
+.aldeal{
+	font-size: 15px;
+	right: 10px;
+	position: relative;
+	bottom: 10px;
+	font-weight: 600px;
+	color: #222931;
+}
+
+.dienst1{
+	font-size: 22px;
+	right: 40px;
+	top: 0px;
+	position: relative;
+	bottom: 5px;
+	font-weight: 600px;
+	color: #222931;
+}
+
+.diensten{
+	font-size: 15px;
+	right: 6px;
+	top: -5px;
+	position: relative;
+	font-weight: 600px;
+	color: #222931;
+}
+
+.bericht{
+	font-size: 22px;
+	right: 40px;
+	top: 0px;
+	position: relative;
+	font-weight: 600px;
+	color: #222931;
+}
+
+.berichten{
+	font-size: 15px;
+	right: 15px;
+	position: relative;
+	font-weight: 600px;
+	color: #222931;
+	top: 0px;
+}
+
+
+/*hover Buttons*/
+.button2:hover .aldeal{
+	color: white;
+	transition: 0.3s;
+}
+
+.button2:hover .deal{
+	color: white;
+	transition: 0.3s;
+}
+
+.button3:hover .dienst1{
+	color: white;
+	transition: 0.3s;
+}
+
+.button3:hover .diensten{
+	color: white;
+	transition: 0.3s;
+}
+
+.button4:hover .bericht{
+	color: white;
+	transition: 0.3s;
+}
+
+.button4:hover .berichten{
+	color: white;
+	transition: 0.3s;
+}
+
+.overlay1{
+   color: white;
+   background-color: black;
+   z-index: 1;
+}
+
+.lijn{
+	max-width: 980px;
+	position: relative;
+	right: 0px;
+	margin-top: 50px;
+}
+
+.hoofd1{
+	margin-left: 227px;
+	margin-top: 80px;
+}
+
+.par1{
+    font-size: 14px;
+}
+
+.lineUnder{
+	margin-top: 340px;
+}
+
+
+.item11 { grid-area: text; max-width: 500px; margin-top: 30px;}
+.item13 { grid-area: info; margin-top: 30px;}
+
+.grid-container2{
+  	display: grid;
+ 	grid-template-areas: 'text info';
+  	grid-gap: 40px;
+	position: relative;
+}
+
+.footerheaders{
+	margin-top: 30px;
+	margin-bottom: 60px;
+}
+
+.fa-map-marker-alt{
+	font-size: 24px;
+	color: grey;	
+}
+
+.fa-mobile-alt{
+	font-size: 24px;
+	color: grey;
+}
+
+.marker{
+	position: relative;
+	float: left;
+	top: 130px;
+}
+
+.mobile{
+	position: relative;
+	float: left;
+	top: 190px;
+	left: 2px;
+}
+
+.fa-envelope-open{
+	font-size: 24px;
+	color: grey;
+}
+
+.envelope{
+	position: relative;
+	float: left;
+	top: 245px;
+	left: 0px;
+}
+
+.locatie{
+	position: relative;
+	float: left;
+	top: 110px;
+	left: 30px;
+}
+
+.telNummer{
+	position: relative;
+	float: left;
+	top: 176px;
+	left: 30px;
+}
+
+.eMail{
+	position: relative;
+	float: left;
+	top: 233px;
+	left: 30px;
+}
+
+
+.longTekst{
+	font-size: 16px;
+	text-align: left;
+	font-weight: 500;
+}
+
+.titleDienst{
+	font-size: 32px;
+	position: relative;
+	top: 560px;
+	font-weight: 600;
+	color: #222931;
+	z-index: 2;
+}
+
+.homeDienst{
+	font-size: 12px;
+	position: relative;
+	color: #222931;
+	text-decoration: none;
+    font-weight: 400;
+    left: 220px;
+}
+
+.teken{
+    font-weight: 400;
+	font-size: 12px;
+	position: relative;
+	left: 260px;
+	color: #222931;
+    bottom: 30px;
+}
+
+.dienstHome{
+	font-size: 12px;
+	position: relative;
+	left: 275px;
+	color: #222931;
+	text-decoration: none;
+    font-weight: 400;
+    bottom: 63px;
+}
+
+.h1diensten{
+    position: relative;
+    right: 94px;
+    top: 50px;
+    font-size: 32px;
+    font-weight: 600;
+    color: #222931;
+    float: left;
+}
+
+.dienstentext{
+    position: relative;
+    top: 80px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #222931;
+    float: left;
+    text-align: left;
+}
+
+.dienstentext2{
+    position: relative;
+    top: 80px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #222931;
+    float: left;
+    margin-bottom: 160px;
+    text-align: left;
+}
+
+.tooltip{
+    color: #ffe718;
+    display: inline;
+    position: relative;
+}
+
+.tooltip:hover:after{
+    background: #aeb6be ;
+    top: 20px;
+    color: #fff;
+    content: attr(title);
+    left: 0;
+    padding: 15px 15px;
+    position: absolute;
+    z-index: 98;
+    width: 220px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+
+.tooltipoverflow{
+    color: #ffe718;
+    display: inline;
+    position: relative;
+}
+
+.tooltipoverflow:hover:after{
+    background: #aeb6be;
+    top: 20px;
+    color: white;
+    content: attr(title);
+    right: 0px;
+    padding: 15px 15px;
+    position: absolute;
+    z-index: 98;
+    width: 220px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.breadcrumb{
+    float: left;
+    font-size: 12px;
+    font-weight: 400;
+    color: #5f656d;
+    position: relative;
+    top: 80px;
+    left: 50px;
+}
+
+.breadcrumb a{
+    text-decoration: none;
+    color: #5f656d;
+}
+
+
+
+
+
+
+
+
+
+
+
