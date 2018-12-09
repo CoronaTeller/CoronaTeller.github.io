@@ -1,0 +1,146 @@
+body{
+	margin: 0;
+	height: 100%;
+	overflow: hidden;
+}
+
+#title{
+	color: white;
+	position: absolute;
+	bottom: 500px;
+	font-size: 36px;
+	text-shadow: 2px 2px black;
+	max-width: 550px;
+	text-align: center;
+}
+
+p{
+	position: relative;
+	font-size: 26px;
+	text-align: center;
+	text-shadow: 2px 2px black;
+	background-color: black;
+	opacity: 0.8;
+}
+
+#button1{
+	width: 150px;
+	height: 50px;
+	z-index: 10;
+	position: relative;
+	top: 700px;
+	left: 650px;
+	font-size: 20px;
+	border-radius: 8px 8px 8px 8px;
+	background: transparent;
+	border: none;
+	background-color: red;
+}
+
+#button1:hover{
+	background-color: black;
+	color: white;
+}
+
+#inventoryItem{
+	position: absolute;
+	opacity: 0.5;
+	left: 320px;
+	top: 600px;
+}
+
+#inventoryItem:hover{
+	opacity: 0.9;
+}
+
+#game-container{
+	position: relative;
+    top: -180px;
+}
+
+
+#game-button > button{
+	position: absolute;
+	border: none;
+}
+
+#description{
+	visibility: hidden;
+}
+
+#button2{
+	visibility: hidden;
+	position: relative;
+	top: 600px;
+	left: 100px;
+	width: 150px;
+	height: 50px;
+	border-style: none;
+	background: transparent;
+}
+
+#button3{
+	visibility: hidden;
+	position: relative;
+	top: 600px;
+	left: 1100px;
+	width: 150px;
+	height: 50px;
+	border-style: none;
+	background: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
