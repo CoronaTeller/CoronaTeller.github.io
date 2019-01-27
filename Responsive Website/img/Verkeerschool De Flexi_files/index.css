@@ -1,0 +1,97 @@
+html{
+	font-style: font-family: 'Archivo', sans-serif;
+	background-color: #F8F8F8;
+}
+/* stijlregels voor alle schermen kleiner dan 320px breed */
+
+@media only screen and (min-width: 320px) {
+	.item1 { 
+	  grid-area: header;
+	  padding: 1em;
+	  text-align: center;
+	  height: 2em;
+	  max-width: 50%;
+
+	 }
+	.item2 { 
+	  grid-area: menu;
+	  padding: 1em;
+	  text-align: center;
+	  height: 100em;
+	  max-width: 50em; 
+	}
+
+	.grid-container {
+  	display: grid;
+  	grid-template-areas:
+    	'header'
+    	'menu';
+	margin: 2em;
+  	grid-gap: 10px;
+  	background-color: white;
+  	padding: 10px;
+}
+
+	.grid-container > div {
+  	text-align: center;
+  	padding: 20px 0;
+  	font-size: 30px;
+}
+
+
+	.yellowBalk{
+	  background-color: #FFE751;
+	  position: relative;
+	  top: -0.7em;
+	  text-align: center;
+	  height: 5em;
+	  width: 29.3em;
+	}
+
+	#menu{
+		width: 3em;
+		position: relative;
+		left: -12em;
+		top: 1.2em;
+	}
+
+	.menuBorder{
+		width: 3em;
+		position: relative;
+		left: -12em;
+		top: 2em;
+
+		border:1px solid #021a40;
+	}
+
+	#logo{
+		position: absolute;
+		width: 12em;
+		top: 7.3em;
+	}
+
+	.firstImg{
+		position: relative;
+		top: 3em;
+		z-index: 2;
+		max-width: 29em;
+	}
+
+}
+
+@media only screen and (min-width: 720px) {
+
+
+
+}
+
+@media only screen and (min-width:1024px) {
+
+
+
+
+}
+	
+
+
+
