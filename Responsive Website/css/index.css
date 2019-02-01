@@ -53,6 +53,13 @@ html {
     top: 1.2em;
   }
 
+  #menu1 {
+    width: 3em;
+    position: relative;
+    left: -12em;
+    top: 1.2em;
+  }
+
   .menuBorder {
     width: 3em;
     position: relative;
@@ -413,6 +420,10 @@ html {
   }
 
   #menu {
+    visibility: hidden;
+  }
+
+  #menu1 {
     visibility: hidden;
   }
 
