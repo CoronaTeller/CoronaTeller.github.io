@@ -1,0 +1,49 @@
+#bg{
+	width: 1450px;
+	position: absolute;
+	z-index: -1;
+	left: -10px;
+	top: -25px;
+}
+
+.nu{
+	position:absolute;
+	z-index:10;
+	top:280px;
+	left:420px;
+	font-family:'Pacifico',cursive;
+	font-size:70px;
+	color:white;
+	text-shadow: 2px 2px grey;
+}
+
+.morning{
+	width:1470px;
+	height:800px;
+	position:absolute;
+	z-index:-1;
+	top:-10px;
+	left:-30px;
+}
+
+.morgen{
+	position:absolute;
+	z-index:1;
+	top:170px;
+	left:400px;
+	font-family:'Pacifico',cursive;
+	font-size:90px;
+	color:white;
+}
+
+
+.text{
+	position:absolute;
+	z-index:10;
+	top:100px;
+	left:420px;
+	font-family:'Pacifico',cursive;
+	font-size:90px;
+	color:white;	
+	text-shadow: 2px 2px grey;
+}
