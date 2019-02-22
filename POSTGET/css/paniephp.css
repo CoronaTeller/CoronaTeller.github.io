@@ -1,0 +1,185 @@
+body{
+	background-color: grey;
+	color: white;
+	left: 200px;
+}
+
+.error {
+	color: #FF0000;
+}
+
+.rand{
+	position: absolute;
+	width: 1000px;
+	background-color: white;
+	top: 130px;
+	left: 200px;
+	background-color: #A80000;
+	height: 70px;
+}
+
+.mad{
+	position: absolute;
+	left: 200px;
+	top: -50px;
+	font-family: 'Lobster', cursive;
+	text-shadow: 6px 6px black;
+	font-size: 90px;
+}
+
+.paniek{
+	font-size: 30px;
+	position: absolute;
+	top: -15px;
+	left: 20px;
+	font-family: 'Lato', sans-serif;
+}
+.onkunde{
+	font-size: 30px;
+	position: absolute;
+	top: -15px;
+	left: 300px;
+	font-family: 'Lato', sans-serif;	
+}
+
+.box{
+	width: 1000px;
+	height: 570px;
+	background-color: white;
+	position: absolute;
+	left: 200px;
+	top: 200px;
+	font-family: 'Lato', sans-serif;
+}
+
+.heerst{
+	color: black;
+	position: absolute;
+	left: 20px;
+	top: 20px;
+}
+
+#dier{
+	position: absolute;
+	left: 500px;
+	top: 100px;
+}
+#persoon{
+	position: absolute;
+	top: 150px;
+	left: 500px;
+}
+#wonen{
+	position: absolute;
+	top: 200px;
+	left: 500px;	
+}
+#verveelt{
+	position: absolute;
+	top: 250px;
+	left: 500px;	
+}
+#speelgoed{
+	position: absolute;
+	top: 300px;
+	left: 500px;	
+}
+#docent{
+	position: absolute;
+	top: 350px;
+	left: 500px;	
+}
+#kopen{
+	position: absolute;
+	top: 400px;
+	left: 500px;	
+}
+#bezigheid{
+	position: absolute;
+	top: 450px;
+	left: 500px;	
+}
+
+.versturen{
+	position: absolute;
+	right: 200px;
+	top: 480px;
+	height: 50px;
+	width: 150px;
+	border-style: none;
+	background-color: grey;
+	opacity: 0.9;
+	font-size: 30px;
+	font-family: 'Lato', sans-serif;
+	border-radius: 10px;
+}
+
+.dierText{
+	position: absolute;
+	color: black;
+	top: 80px;
+	left: 20px;
+}
+
+.persoonText{
+	position: absolute;
+	color: black;
+	top: 126px;
+	left: 20px;
+}
+
+.wonenText{
+	position: absolute;
+	color: black;
+	top: 178px;
+	left: 20px;
+}
+
+.verveeltText{
+	position: absolute;
+	color: black;
+	top: 230px;
+	left: 20px;
+}
+
+.speelgoedText{
+	position: absolute;
+	color: black;
+	top: 283px;
+	left: 20px;
+}
+
+.docentText{
+	position: absolute;
+	color: black;
+	top: 334px;
+	left: 20px;
+}
+
+.kopenText{
+	position: absolute;
+	color: black;
+	top: 384px;
+	left: 20px;
+}
+
+.bezigheidText{
+	position: absolute;
+	color: black;
+	top: 434px;
+	left: 20px;
+}
+
+.footer {
+   position: fixed;
+   left: 200px;
+   bottom: 0;
+   width: 1000px;
+   background-color: #A4A4A4;
+   color: black;
+   text-align: center;
+}
+
+a {
+  color: white;
+}
