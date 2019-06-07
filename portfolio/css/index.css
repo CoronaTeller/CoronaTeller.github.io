@@ -1,0 +1,127 @@
+body{
+	height: 1200px;
+}
+
+.carousel-item{
+	width: 100vw;
+	height: 40vw;
+}
+
+
+#ik{
+	width: 20vw;
+	position: absolute;
+	top: 4vw;
+	left: 14vw;
+}
+
+.wie{
+	width: 20vw;
+	position: absolute;
+	top: 6vw;
+	left: 2vw;
+	font-size: 2vw;
+}
+
+.ben{
+	width: 20vw;
+	position: absolute;
+	top: 9vw;
+	left: 2vw;
+	font-size: 1.5vw;
+
+}
+
+.nav nav-tabs{
+	position: fixed;
+	top: 0px;
+}
+
+.footer {
+   position: absolute;
+   left: 0;
+   bottom: -420px;
+   width: 100%;
+   background-color: grey;
+   color: white;
+   text-align: center;
+}
+
+@media (min-width: 300px) {
+	#ik{
+	width: 40vw;
+	position: absolute;
+	top: 4vw;
+	left: 20vw;
+}
+
+.wie{
+	width: 30vw;
+	position: absolute;
+	top: 7vw;
+	left: 67vw;
+	font-size: 3.4vw;
+}
+
+.ben{
+	width: 30vw;
+	position: absolute;
+	top: 12vw;
+	left: 67vw;
+	font-size: 2.4vw;
+
+}
+
+.footer {
+   position: absolute;
+   left: 0;
+   bottom: 420px;
+   width: 100%;
+   background-color: grey;
+   color: white;
+   text-align: center;
+}
+
+}
+
+@media (min-width: 576px) {
+
+body{
+	height: 700px;
+}
+	#ik{
+	width: 20vw;
+	position: absolute;
+	top: 4vw;
+	left: 20vw;
+}
+
+.wie{
+	width: 20vw;
+	position: absolute;
+	top: 6vw;
+	left: 10vw;
+	font-size: 2vw;
+}
+
+.ben{
+	width: 20vw;
+	position: absolute;
+	top: 9vw;
+	left: 10vw;
+	font-size: 1.5vw;
+
+}
+
+.footer {
+   position: absolute;
+   left: 0;
+   bottom: 420px;
+   width: 100%;
+   background-color: grey;
+   color: white;
+   text-align: center;
+}
+
+}
+

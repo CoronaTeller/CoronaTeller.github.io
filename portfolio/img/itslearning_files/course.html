@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<!-- saved from url=(0110)https://davinci.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=1189692 -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="nl-NL" lang="nl-NL" class="itsl-lte-container"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>OPDRACHT PORTFOLIO CSS FRAMEWORK</title>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            
+                <link rel="stylesheet" type="text/css" href="./itsl.css">
+            
+            
+            
+            
+            
+            
+                <link rel="stylesheet" type="text/css" href="./custom.css">
+            
+            <link rel="icon" type="image/vnd.microsoft.icon" href="https://statics.itslearning.com/v3.105.0.365/favicon.ico">
+            <link rel="apple-touch-icon" href="https://statics.itslearning.com/v3.105.0.365/touch-icon-iphone.png">
+            <link rel="apple-touch-icon" sizes="76x76" href="https://statics.itslearning.com/v3.105.0.365/touch-icon-ipad.png">
+            <link rel="apple-touch-icon" sizes="120x120" href="https://statics.itslearning.com/v3.105.0.365/touch-icon-iphone-retina.png">
+            <link rel="apple-touch-icon" sizes="152x152" href="https://statics.itslearning.com/v3.105.0.365/touch-icon-ipad-retina.png">
+
+            
+
+            <script type="text/javascript" src="./Common.js"></script>
+            <script type="text/javascript" src="./AC_RunActiveContent.js"></script>
+            
+                <link rel="stylesheet" type="text/css" href="./jquery-ui-1.11.4.custom.css">
+                <script type="text/javascript" src="./jquery-1.7.1.min.js"></script>
+                <script type="text/javascript" src="./jquery-ui-1.11.4.custom.min.js"></script>
+            
+            
+            
+            
+        
+            <script type="text/javascript" src="./objectassign.min.js"></script>
+            <script type="text/javascript" src="./customevent.min.js"></script>
+        
+        <script type="text/javascript" src="./onboarding.min.js"></script>
+        
+    <style type="text/css" id="vakata-stylesheet">#vakata-dragged { display:block; margin:0 0 0 0; padding:4px 4px 4px 24px; position:absolute; top:-2000px; line-height:16px; z-index:10000; } #vakata-contextmenu { display:block; visibility:hidden; left:0; top:-200px; position:absolute; margin:0; padding:0; min-width:180px; background:#ebebeb; border:1px solid silver; z-index:10000; } #vakata-contextmenu ul { min-width:180px; } #vakata-contextmenu ul, #vakata-contextmenu li { margin:0; padding:0; list-style-type:none; display:block; } #vakata-contextmenu li { line-height:20px; min-height:20px; position:relative; padding:0px; } #vakata-contextmenu li a { padding:1px 6px; line-height:17px; display:block; text-decoration:none; margin:1px 1px 0 1px; } #vakata-contextmenu li ins { float:left; width:16px; height:16px; text-decoration:none; margin-right:2px; } #vakata-contextmenu li a:hover, #vakata-contextmenu li.vakata-hover > a { background:gray; color:white; } #vakata-contextmenu li ul { display:none; position:absolute; top:-2px; left:100%; background:#ebebeb; border:1px solid gray; } #vakata-contextmenu .right { right:100%; left:auto; } #vakata-contextmenu .bottom { bottom:-1px; top:auto; } #vakata-contextmenu li.vakata-separator { min-height:0; height:1px; line-height:1px; font-size:1px; overflow:hidden; margin:0 2px; background:silver; /* border-top:1px solid #fefefe; */ padding:0; } </style><style type="text/css" id="jstree-stylesheet">.jstree ul, .jstree li { display:block; margin:0 0 0 0; padding:0 0 0 0; list-style-type:none; } .jstree li { display:block; min-height:18px; line-height:18px; white-space:nowrap; margin-left:18px; min-width:18px; } .jstree-rtl li { margin-left:0; margin-right:18px; } .jstree > ul > li { margin-left:0px; } .jstree-rtl > ul > li { margin-right:0px; } .jstree ins { display:inline-block; text-decoration:none; width:18px; height:18px; margin:0 0 0 0; padding:0; } .jstree a { display:inline-block; line-height:16px; height:16px; color:black; white-space:nowrap; text-decoration:none; padding:1px 2px; margin:0; } .jstree a:focus { outline: none; } .jstree a > ins { height:16px; width:16px; } .jstree a > .jstree-icon { margin-right:3px; } .jstree-rtl a > .jstree-icon { margin-left:3px; margin-right:0; } li.jstree-open > ul { display:block; } li.jstree-closed > ul { display:none; } #vakata-dragged ins { display:block; text-decoration:none; width:16px; height:16px; margin:0 0 0 0; padding:0; position:absolute; top:4px; left:4px;  -moz-border-radius:4px; border-radius:4px; -webkit-border-radius:4px; } #vakata-dragged .jstree-ok { background:green; } #vakata-dragged .jstree-invalid { background:red; } #jstree-marker { padding:0; margin:0; font-size:12px; overflow:hidden; height:12px; width:8px; position:absolute; top:-30px; z-index:10001; background-repeat:no-repeat; display:none; background-color:transparent; text-shadow:1px 1px 1px white; color:black; line-height:10px; } #jstree-marker-line { padding:0; margin:0; line-height:0%; font-size:1px; overflow:hidden; height:1px; width:100px; position:absolute; top:-30px; z-index:10000; background-repeat:no-repeat; display:none; background-color:#456c43;  cursor:pointer; border:1px solid #eeeeee; border-left:0; -moz-box-shadow: 0px 0px 2px #666; -webkit-box-shadow: 0px 0px 2px #666; box-shadow: 0px 0px 2px #666;  -moz-border-radius:1px; border-radius:1px; -webkit-border-radius:1px; }.jstree .jstree-real-checkbox { display:none; } .jstree-themeroller .ui-icon { overflow:visible; } .jstree-themeroller a { padding:0 2px; } .jstree-themeroller .jstree-no-icon { display:none; }.jstree .jstree-wholerow-real { position:relative; z-index:1; } .jstree .jstree-wholerow-real li { cursor:pointer; } .jstree .jstree-wholerow-real a { border-left-color:transparent !important; border-right-color:transparent !important; } .jstree .jstree-wholerow { position:relative; z-index:0; height:0; } .jstree .jstree-wholerow ul, .jstree .jstree-wholerow li { width:100%; } .jstree .jstree-wholerow, .jstree .jstree-wholerow ul, .jstree .jstree-wholerow li, .jstree .jstree-wholerow a { margin:0 !important; padding:0 !important; } .jstree .jstree-wholerow, .jstree .jstree-wholerow ul, .jstree .jstree-wholerow li { background:transparent !important; }.jstree .jstree-wholerow ins, .jstree .jstree-wholerow span, .jstree .jstree-wholerow input { display:none !important; }.jstree .jstree-wholerow a, .jstree .jstree-wholerow a:hover { text-indent:-9999px !important; width:100%; padding:0 !important; border-right-width:0px !important; border-left-width:0px !important; } .jstree .jstree-wholerow-span { position:absolute; left:0; margin:0px; padding:0; height:18px; border-width:0; padding:0; z-index:0; }</style></head>
+    <body id="ctl00_PageBody" class="l-modern itsl-lte-view">
+        
+        <div id="ctl00_BodyWrapper" class="itsl-body-wrapper">
+            <form method="post" action="https://davinci.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=1189692" id="aspnetForm">
+<div>
+<input type="hidden" name="__ITSL_CSRF_TOKEN__" id="__ITSL_CSRF_TOKEN__" value="CtUGbj7e1AEBywEAAJNMBgDmzY7GFAflpiHq931oho71YZ+7/NOQdZzklUNsiD8rdKwHEB/ofk5mvL8QEFySTy9k0iATc7ANIle6X2Q/rbgx">
+<input type="hidden" name="__ITSL_CSRF_HASH__" id="__ITSL_CSRF_HASH__" value="3PyNu...5SQU=">
+<input type="hidden" name="__ITSL_CSRF_HOST__" id="__ITSL_CSRF_HOST__" value="ITSL583V">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUINzcwNTcxMzAPFgIeE1ZhbGlkYXRlUmVxdWVzdE1vZGUCARYCZg9kFhACAg8WAh4HVmlzaWJsZWhkAgMPFgIfAWgWAmYPFQJBaHR0cHM6Ly9zdGF0aWNzLml0c2xlYXJuaW5nLmNvbS92My4xMDUuMC4zNjUva2lkcy90aGVtZXMva2lkcy5jc3NTaHR0cHM6Ly9zdGF0aWNzLml0c2xlYXJuaW5nLmNvbS92My4xMDUuMC4zNjUva2lkcy90aGVtZXMvZm9vdGJhbGwvaXRzbF9mb290YmFsbC5jc3NkAgQPFgIfAWhkAgUPFgIfAWhkAggPFgIfAWhkAgkPFgIfAWhkAgoPFgIfAWhkAg0PFgIeBWNsYXNzBRZsLW1vZGVybiBpdHNsLWx0ZS12aWV3FgICAQ8WAh8CBRFpdHNsLWJvZHktd3JhcHBlchYCZg9kFgYCBA8WAh8BaBYCZg8PFggeCENzc0NsYXNzBRdjY2wtaWNvbmxpbmsgaC1uby1wcmludB4GVGFyZ2V0BQhtYWlubWVudR4LTmF2aWdhdGVVcmwFKy9Gb2xkZXIvcHJvY2Vzc2ZvbGRlci5hc3B4P0ZvbGRlcklEPTExODMyNTYeBF8hU0ICAmQWAgIDDxYEHglpbm5lcmh0bWwFJlRlcnVnIG5hYXIgV2VlayAyNCB0L20gMjUgLSBUZW1wbGF0aW5nHwFnZAIFD2QWAmYPZBYUZg8WAh8BaBYEZg8VAR1jY2wtZmVlZGJhY2stbWVzc2FnZWNvbnRhaW5lcmQCAg8VAykjY3RsMDBfQmVsb3dUaXRsZVBsYWNlSG9sZGVyX1Jldmlld0RpYWxvZyZoLXBkbDUgaC1ob3Zlci10ZC11bCBpdHNsLXJldmlldy10aXRsZRVCZW9vcmRlbGluZyBzY2hyaWp2ZW5kAgEPDxYCHwFoFgIeBXN0eWxlBQ1kaXNwbGF5Om5vbmU7FgICAw8PZBYCHwIFC2gtdmEtbWlkZGxlZAICDxYCHwFoZAIDDxYCHwFoZAIEDw8WBB8DBSNpdHNsLWxlYXJuaW5ndG9vbGVsZW1lbnQtb25ib2FyZGluZx8GAgJkFgICAQ8PFgIfAWhkZAIFDw8WBB8DBSZpdHNsLWxlYXJuaW5ndG9vbGVsZW1lbnQtY29weWluZy1mcmFtZR8GAgJkFgICAQ8PFgIeCEltYWdlVXJsBUBodHRwczovL3N0YXRpY3MuaXRzbGVhcm5pbmcuY29tL3YzLjEwNS4wLjM2NS9pY29ucy94cC9zeW5jNDgucG5nZGQCBg8WAh8BaBYCZg8WAh4PYXJpYS1sYWJlbGxlZGJ5BV1jdGwwMF9CZWxvd1RpdGxlUGxhY2VIb2xkZXJfUmV2aWV3RGlhbG9nX2N0bDAwIGN0bDAwX0JlbG93VGl0bGVQbGFjZUhvbGRlcl9SZXZpZXdEaWFsb2dfY3RsMDMWAmYPZBYGAgEPZBYCZg9kFgJmDxUCEWl0c2wtcmV2aWV3LXRpdGxlFUJlb29yZGVsaW5nIHNjaHJpanZlbmQCAg9kFgJmD2QWEGYPDxYGHgRUZXh0BT1KZSBiZW9vcmRlbGluZyBoZWxwdCBhbmRlcmUgZG9jZW50ZW4gZ29lZGUgYnJvbm5lbiB0ZSB2aW5kZW4uHwMFDGgtY29sb3ItZ3JleR8GAgJkZAIDDxUBJWgtbXJ0MTAgaC1tcnI1IGl0c2wtY29tbWVudC1hcnJvdy1ib3hkAgQPDxYCHglNYXhMZW5ndGgC/wEWAh4LcGxhY2Vob2xkZXIFJEtsaWsgb20gZWVuIGJlb29yZGVsaW5nIHRlIHNjaHJpanZlbmQCBQ8VARRoLWNvbG9yLWdyZXkgaC1tcnQxNWQCBg8PFgYfAwUeaXRzbC12ZXJ0aWNhbGx5LXNlcGFyYXRlZC1pdGVtHwsFE0xhYWssIHZhbiwgS2luZ3N0b24fBgICZGQCBw8PFgYfAwUeaXRzbC12ZXJ0aWNhbGx5LXNlcGFyYXRlZC1pdGVtHwsFB1JPQyBEVkMfBgICZGQCCQ8WAh4FVmFsdWUFATBkAgoPFgIfDmRkAgMPZBYCZg9kFgRmDw8WCB8DBS9jY2wtYnV0dG9uIGNjbC1idXR0b24tY29sb3ItZ3JlZW4gY2NsLWJ1dHRvbi1vax4NT25DbGllbnRDbGljawVbIHdpbmRvdy5WaWV3TGVhcm5pbmdUb29sRWxlbWVudEluc3RhbmNlLnNhdmVSZXZpZXcoKTsgQ3NzTW9kYWwuY2xvc2VEaWFsb2coKTsgcmV0dXJuIGZhbHNlOx8LBQdPcHNsYWFuHwYCAmRkAgEPDxYIHwMFIGNjbC1idXR0b24gY2NsLWJ1dHRvbi1jb2xvci1ncmV5Hw8FXHdpbmRvdy5WaWV3TGVhcm5pbmdUb29sRWxlbWVudEluc3RhbmNlLmNhbmNlbFJldmlldygpOyBDc3NNb2RhbC5jbG9zZURpYWxvZygpOyByZXR1cm4gZmFsc2U7HwsFCUFubnVsZXJlbh8GAgJkZAIHD2QWAmYPFgIfCgVnY3RsMDBfQmVsb3dUaXRsZVBsYWNlSG9sZGVyX0xpbmtPckVtYmVkRGlhbG9nX2N0bDAwIGN0bDAwX0JlbG93VGl0bGVQbGFjZUhvbGRlcl9MaW5rT3JFbWJlZERpYWxvZ19jdGwwMxYCZg9kFgQCAQ9kFgJmD2QWAmYPFQEVS29wcGVsZW4gb2YgaW5zbHVpdGVuZAICD2QWAmYPZBYCZg9kFgICAQ9kFgQCAw9kFgZmDw8WBh8LBQlLb3BwZWxpbmcfAwUNaC1wZGw1IGgtcGRyNR8GAgJkZAICDxYCHwIFGWl0c2wtY29weXRvY2xpcGJvYXJkcGFuZWwWBAIBDw8WCB8DBRNjY2wtaWNvbmxpbmsgaC1mbC1yHwUFE2phdmFzY3JpcHQ6dm9pZCgwKTseB1Rvb2xUaXAFF0tvcGnDq3JlbiBuYWFyIGtsZW1ib3JkHwYCAhYCHgdvbmNsaWNrBT1WaWV3TGVhcm5pbmdUb29sRWxlbWVudEluc3RhbmNlLmNvcHlUb0NsaXBib2FyZE9rKCJDb3B5TGluayIpZAIDDw8WBh8DBRNjY2wtaWNvbmxpbmsgaC1mbC1yHwUFE2phdmFzY3JpcHQ6dm9pZCgwKTsfBgICZGQCBA8WAh8CBRVpdHNsLWxpbmtvcmVtYmVkcGFuZWwWAgIDDw8WBB8DBRRoLXdpZHRoLTEwMCBoLW5vLW90bB8GAgIWAh8RBREkKHRoaXMpLnNlbGVjdCgpO2QCBQ9kFgZmDw8WBh8LBQtJbnNsdWl0Y29kZR8DBQ1oLXBkbDUgaC1wZHI1HwYCAmRkAgIPFgIfAgUZaXRzbC1jb3B5dG9jbGlwYm9hcmRwYW5lbBYEAgEPDxYIHwMFE2NjbC1pY29ubGluayBoLWZsLXIfBQUTamF2YXNjcmlwdDp2b2lkKDApOx8QBRdLb3Bpw6tyZW4gbmFhciBrbGVtYm9yZB8GAgIWAh8RBUJWaWV3TGVhcm5pbmdUb29sRWxlbWVudEluc3RhbmNlLmNvcHlUb0NsaXBib2FyZE9rKCJDb3B5RW1iZWRDb2RlIilkAgMPDxYGHwMFE2NjbC1pY29ubGluayBoLWZsLXIfBQUTamF2YXNjcmlwdDp2b2lkKDApOx8GAgJkZAIEDxYCHwIFFWl0c2wtbGlua29yZW1iZWRwYW5lbBYCAgMPDxYEHwMFFGgtd2lkdGgtMTAwIGgtbm8tb3RsHwYCAhYCHxEFESQodGhpcykuc2VsZWN0KCk7ZAIJD2QWAmYPFgIfCgVdY3RsMDBfQmVsb3dUaXRsZVBsYWNlSG9sZGVyX1J1YnJpY0RpYWxvZ19jdGwwMCBjdGwwMF9CZWxvd1RpdGxlUGxhY2VIb2xkZXJfUnVicmljRGlhbG9nX2N0bDAzFgJmD2QWAgIBD2QWAmYPZBYCZg8VAhRoLXBvc2l0aW9uLXIgaC1wZHIyMBBDcml0ZXJpYSBiZWhlcmVuZAILDxUCWS9MZWFybmluZ1Rvb2xFbGVtZW50L0ludGVybWVkaWF0ZVBhZ2UuYXNweD9QYWdlVG9SZWRpcmVjdD1QdWJsaXNoRGlhbG9nJkVsZW1lbnRJRD0xMTg5NjkyOndpbmRvdy5sb2NhdGlvbi5ocmVmID0gd2luZG93LmxvY2F0aW9uLmhyZWYuc3BsaXQoJyMnKVswXTtkAgYPZBYCAgIPFgIfAmUWAgICD2QWBAIBD2QWBGYPFQEYaXRzbC1sby1saXN0LWxvLXNlbGVjdG9yZAIBD2QWAgIDD2QWAmYPZBYCZg8WAh8KBZEBY3RsMDBfQ29udGVudFBsYWNlSG9sZGVyX0xlYXJuaW5nT2JqZWN0aXZlc1NlbGVjdG9yX2N0bDAzX0Nzc01vZGFsX2N0bDAwIGN0bDAwX0NvbnRlbnRQbGFjZUhvbGRlcl9MZWFybmluZ09iamVjdGl2ZXNTZWxlY3Rvcl9jdGwwM19Dc3NNb2RhbF9jdGwwMxYCZg9kFgICAg9kFgJmD2QWAgICD2QWAmYPZBYCAgEPZBYCAgIPZBYCZg8WAh8CBQhjY2wtZ3JpZBYQZg8WAh8BaBYCZg8PZBYCHwgFDWRpc3BsYXk6bm9uZTtkAgIPFgIfAgUJZ3JpZHRhYmxlZAIDD2QWAmYPZBYCZg8PZBYCHwIFCWNjbC1wYWdlchYEZg8WAh8CBQ5jY2wtcGFnaW5hdGlvbmQCAQ8WBB8CBSFwYWdlLXNpemUtY2hvb3NlciBoLWlzLW5vdC1tb2JpbGUfAWhkAgQPFgIfDgUBMWQCBQ8WAh8OBQIyNWQCBg8WAh8OZWQCBw8WAh8OZWQCCA8WAh8OBQRJdGVtZAIDD2QWAmYPDxYEHwMFDGgtcG9zaXRpb24tch8GAgJkFgQCAQ8WBB8CBRFpdHNsLWx0ZS1zZXR0aW5ncx8BaBYCZg9kFgJmD2QWAgICD2QWAgICDxYCHwcFAk9LZAIDDxYCHwIFEGl0c2wtbHRlLWNvbnRlbnQWBmYPFQIBNRJpdHNsLWx0ZS10ZWxlbWV0cnlkAgEPFgQeBXRpdGxlBSBPUERSQUNIVCBQT1JURk9MSU8gQ1NTIEZSQU1FV09SSx4Dc3JjBbUMaHR0cHM6Ly9wbGF0Zm9ybS5pdHNsZWFybmluZy5jb20vTG9naW5TU08uYXNweD9BY2Nlc3NpYmlsaXR5PUZhbHNlJmFtcDtBbGxvd2VkSHRtbENvZGVMZXZlbD1MZXNzUmVzdHJpY3RlZCZhbXA7QWxsb3dlZFRvR2l2ZVJldmlld3M9RmFsc2UmYW1wO0FwcGxpY2F0aW9uS2V5PWFrLWl0c2xUb1BsYXRmb3JtS2FyaXVzLTE1NDQmYW1wO0FwcGxpY2F0aW9uVmVyc2lvbj0zLjEwNS4wLjM2NSZhbXA7Q29udGV4dFJvbGU9TGVhcm5lciZhbXA7Q291bnRyeUNvZGU9TkwmYW1wO0N1c3RvbTE9OTkwNTA2OTklNDBteWRhdmluY2kubmwmYW1wO0N1c3RvbTFJZD1lUFBOJmFtcDtDdXN0b21lcklkPTQ1OSZhbXA7RWxlbWVudElkPTExODk2OTImYW1wO0VsZW1lbnRQZXJtaXNzaW9uPVJlYWQlMmMrUGFydGljaXBhdGUmYW1wO0VtYWlsPTk5MDUwNjk5JTQwbXlkYXZpbmNpLm5sJmFtcDtFbmFibGVTaGFyZWFibGVQbGFubmVyPUZhbHNlJmFtcDtFbmNvZGluZz11dGY4JmFtcDtGaXJzdE5hbWU9S2luZ3N0b24mYW1wO0luc3RpdHV0aW9uTGFuZ3VhZ2U9bmwtTkwmYW1wO0lzU2VjdXJlQ29ubmVjdGlvbj1UcnVlJmFtcDtJdHNsZWFybmluZ0Jhc2VVUkw9ZGF2aW5jaS5pdHNsZWFybmluZy5jb20mYW1wO0l0c2xlYXJuaW5nRW52aXJvbm1lbnRJZD0wJmFtcDtJdHNsZWFybmluZ1ZlcnNpb249My4xMDUuMC4zNjUmYW1wO0xhbmd1YWdlPW5sLU5MJmFtcDtMYXN0TmFtZT1MYWFrJTJjK3ZhbiZhbXA7TG9jYWxlPW5sLU5MJmFtcDtNb2RlVHlwZT1Ob3JtYWwmYW1wO09sc29uVGltZVpvbmVJZD1FdXJvcGUlMmZBbXN0ZXJkYW0mYW1wO1Blcm1pc3Npb25zPVZpZXdDb3Vyc2UlMmMrTWFuYWdlRXh0ZW5zaW9uc0RlZmF1bHRBdmFpbGFiaWxpdHklMmMrVXNlTW9kdWxlcyUyYytVc2VFeHRlbnNpb25zV2l0aG91dEFwcHJvdmFsJmFtcDtQZXJzb25JZD00MTI4MTkmYW1wO1JlcXVlc3REYXRlVGltZVV0Yz0yMDE5LTAzLTE5VDExJTNhMjglM2EwMS42MTc5NjYyJTJiMDElM2EwMCZhbXA7UmV0dXJuVXJsPSU3ZSUyZkxlYXJuaW5nT2JqZWN0cyUyZkxlYXJuaW5nT2JqZWN0SW5zdGFuY2UuYXNweCUzZkNvbnRlbnRSZWFkT25seSUzZEZhbHNlJTI2RWxlbWVudElkJTNkMTE4OTY5MiUyNkVuY29kaW5nJTNkdXRmOCUyNklzTHRpUmVkaXJlY3QlM2RGYWxzZSUyNkxlYXJuaW5nT2JqZWN0SW5zdGFuY2VJZCUzZDAlMjZMZWFybmluZ1Rvb2xJZCUzZDUlMjZMb2NhdGlvbklkJTNkNTI2OSUyNk9wZW5lZEZvclByZXZpZXclM2RGYWxzZSUyNk9wZW5lZEZyb21Db3Vyc2UlM2RUcnVlJTI2U2Nob29sSWQlM2RORVdTU08tTkEmYW1wO1JvbGU9TGVhcm5lciZhbXA7Um9sZUluRGV2ZWxvcGVyUG9ydGFsPU5vbmUmYW1wO1NpZ25hdHVyZT01NzcyZGI1N2VkNjBlMzgzOWQ3OGQ1ZTE4ZWVjZmRjZSZhbXA7U3luY0tleT05OTA1MDY5OSZhbXA7VGltZVpvbmVJZD0yODgmYW1wO1VzZTEySFRpbWVGb3JtYXQ9RmFsc2UmYW1wO1VzZUxlc3NvbkxpYnJhcnk9RmFsc2UmYW1wO1VzZVJhdGluZ3NJbk15TGlicmFyeT1UcnVlJmFtcDtVc2VyTmFtZT05OTA1MDY5OSZhbXA7V2luZG93c1RpbWVab25lSWQ9Vy4rRXVyb3BlK1N0YW5kYXJkK1RpbWVkAgIPFQEQaXRzbC1hamF4LWxvYWRlcmRkVg5ditEE4Qh/+CAuoTGScShKt1M=">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+
+<script src="./knockout-3.4.0.js" type="text/javascript"></script>
+<script src="./knockout.bindings.child.js" type="text/javascript"></script>
+<script src="./ViewLearningToolElement.js" type="text/javascript"></script>
+<script src="./itslearningweb.generated.js" type="text/javascript"></script>
+<script src="./commonControlLibrary.min.js" type="text/javascript"></script>
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="37121A56">
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdABD6SfuGKKoa6KrREg65EkxyT2VnbooBX/fpfGi6nwhrWBrijNnKdKg8e6UZuttR0JFTdB+Nf6jgVVssP+NyPs1jxbu+3tVySD0ePJkue/nBmziu+f/6eSo/U+VM8xWwwWB949sW09vGea0yT8y1cWFHw+jZVdFLYFYvZgaiBwanDdnR0okvuaVCCZss8caWhhD0Iv9iJ/rXhX1DckEIMQbtIEWhFfG7c/uWCUP2nN56OFvRbZwpf3Jmp4GuaczOGKP5tQS/nFvZSJp2WgPli1RZTYSGcvCmdGbAMkB1ovb3RAj4QtiOub1BxRJ5B+o5Y1kSV3xWkHOqDUJnemFVGYN2G1nDeyW7GcgM3a1+84n5xz6cf30=">
+</div>
+                
+                <div class="page-header-wrapper" id="d3224766302a4ef19e5e9fc91452a964">
+                    <h1 class="ccl-pageheader"><span><img src="./ExtensionIconHandler(2).ashx" alt="" style="height:32px;width:32px;"><span id="ctl00_PageHeader_TT" class="ccl-pageheader-title">OPDRACHT PORTFOLIO CSS FRAMEWORK</span></span></h1>
+                    
+                    
+    <div id="ctl00_PageFunctionsPlaceHolder_ctl00" class="itsl-pagefunctions ili"><button id="ctl00_PageFunctionsPlaceHolder_ctl01" type="button" class="ccl-button ccl-button-color-grey ili-h-ellipsis ccl-dropdownmenu-targetlink" aria-haspopup="true" aria-controls="ctl00_PageFunctionsPlaceHolder_ctl03_M"><span class="screen-reader screen-reader-focusable">Functies</span></button></div><div id="ctl00_PageFunctionsPlaceHolder_ctl03_M" class="ccl-dropdownmenu h-no-print" role="menu" style="display:none;">
+	<ul aria-expanded="false" role="menu"><li id="ctl00_PageFunctionsPlaceHolder_ctl03_PrintLink" role="menuitem"><a title="Afdrukken" class="ccl-iconlink" onclick="ViewLearningToolElementInstance.printContentFrame();" href="javascript:void(0);"><img src="./modern-print.svg" alt=""><span>Afdrukken</span></a></li></ul>
+</div>
+
+                    <div class="h-fl-c"></div>
+                    
+                    
+    <noscript>
+            De site werkt niet wanneer Javascript is uitgeschakeld. Schakel Javascript voor uw browser in.
+    </noscript>
+    
+        <div class="h-clear-b h-mrb10 h-ov-hidden">
+            
+        </div>
+
+        <div class="itsl-learningtoolelement-onboarding">
+	
+            
+            <div class="ccl-context-dialog ccl-onboarding-dialog" role="dialog" aria-labelledby="ui-id-1" style="z-index: 999;"><div class="ccl-context-dialog-arrow"></div><div class="ccl-context-dialog-preheader"></div><header class="ccl-context-dialog-header" style="display: none;"><div class="ccl-context-dialog-header-beforetitle"></div><h2 id="ui-id-1"></h2></header><div id="ctl00_BelowTitlePlaceHolder_LearningToolOptionsOnboarding_OnboardingDialogContainer" class="ccl-onboarding-dialog-inner ccl-context-dialog-content">
+		<div class="ccl-context-dialog-content-container">
+			<h3></h3><p></p>
+		</div>
+	</div><footer class="ccl-context-dialog-footer"><div id="ctl00_BelowTitlePlaceHolder_LearningToolOptionsOnboarding_OnboardingDialogFooter">
+			<button type="button" class="ccl-onboarding-dialog-close ccl-button ccl-button-color-purple">Ik snap het</button>
+		</div></footer><button type="button" class="ccl-context-dialog-big-close" style="display: none;"></button></div>
+            <div class="ccl-context-dialog ccl-onboarding-dialog" role="dialog" aria-labelledby="ui-id-2" style="z-index: 999;"><div class="ccl-context-dialog-arrow"></div><div class="ccl-context-dialog-preheader"></div><header class="ccl-context-dialog-header" style="display: none;"><div class="ccl-context-dialog-header-beforetitle"></div><h2 id="ui-id-2"></h2></header><div id="ctl00_BelowTitlePlaceHolder_PageFunctionsOnboarding_OnboardingDialogContainer" class="ccl-onboarding-dialog-inner ccl-context-dialog-content">
+		<div class="ccl-context-dialog-content-container">
+			<h3></h3><p></p>
+		</div>
+	</div><footer class="ccl-context-dialog-footer"><div id="ctl00_BelowTitlePlaceHolder_PageFunctionsOnboarding_OnboardingDialogFooter">
+			<button type="button" class="ccl-onboarding-dialog-close ccl-button ccl-button-color-purple">Ik snap het</button>
+		</div></footer><button type="button" class="ccl-context-dialog-big-close" style="display: none;"></button></div>
+        
+</div><section id="ctl00_BelowTitlePlaceHolder_LinkOrEmbedDialog" tabindex="-1" role="dialog" aria-modal="true" class="ccl-cssmodal" style="z-index:6;" aria-labelledby="ctl00_BelowTitlePlaceHolder_LinkOrEmbedDialog_ctl00 ctl00_BelowTitlePlaceHolder_LinkOrEmbedDialog_ctl03"><div id="ctl00_BelowTitlePlaceHolder_LinkOrEmbedDialog_ctl00" class="ccl-cssmodal-modal-inner">
+	<section class="ccl-cssmodal-mobile-toolbar"><div id="ctl00_BelowTitlePlaceHolder_LinkOrEmbedDialog_ctl02_C" class="ccl-gridtoolbar"><ul class="itemsleft"><li><button type="button" class="ccl-cssmodal-modal-close ccl-cssmodal-modal-close-mobile"><span>Sluiten</span></button></li></ul></div></section><header id="ctl00_BelowTitlePlaceHolder_LinkOrEmbedDialog_ctl03" class="ccl-cssmodal-modal-header">
+                <h2>Koppelen of insluiten</h2>
+            </header><div id="ctl00_BelowTitlePlaceHolder_LinkOrEmbedDialog_ctl05" class="ccl-cssmodal-modal-content"><div class="ccl-formcontainer">
+		
+                <fieldset>
+			<ol class="ccl-formsection-ol">
+				
+                    <li class="ccl-formpanel"><label for="ctl00_BelowTitlePlaceHolder_LinkOrEmbedDialog_LinkText" class="h-pdl5 h-pdr5 ccl-formpanel-descriptionlabel">Koppeling</label>
+                        <div class="itsl-copytoclipboardpanel">
+                            <a id="ctl00_BelowTitlePlaceHolder_LinkOrEmbedDialog_CopyLinkToClipboardLink" title="Kopiëren naar klembord" class="ccl-iconlink h-fl-r" onclick="ViewLearningToolElementInstance.copyToClipboardOk(&quot;CopyLink&quot;)" href="javascript:void(0);"><img src="./bw_copy16.png" alt="" style="height:16px;width:16px;"></a>
+                            <a id="ctl00_BelowTitlePlaceHolder_LinkOrEmbedDialog_CopyLinkToClipboardOkIcon" class="ccl-iconlink h-fl-r" href="javascript:void(0);" style="display: none;"><img src="./title-edit-ok16.png" alt="" style="height:16px;width:16px;"></a>
+                        </div>
+                        <div class="itsl-linkorembedpanel">
+                            <input type="hidden" name="ctl00$BelowTitlePlaceHolder$LinkOrEmbedDialog$EmbedUrlHidden" id="ctl00_BelowTitlePlaceHolder_LinkOrEmbedDialog_EmbedUrlHidden" value="https://platform.itslearning.com/Embed?lang=nl-NL&amp;p=MAA%3d">
+                            <input name="ctl00$BelowTitlePlaceHolder$LinkOrEmbedDialog$LinkText" type="text" value="https://platform.itslearning.com/Embed?lang=nl-NL&amp;p=MAA%3d" id="ctl00_BelowTitlePlaceHolder_LinkOrEmbedDialog_LinkText" class="h-width-100 h-no-otl" onclick="$(this).select();" style="border-width:0px;">
+                        </div>
+                    </li>
+                    <li class="ccl-formpanel"><label for="ctl00_BelowTitlePlaceHolder_LinkOrEmbedDialog_EmbedCodeText" class="h-pdl5 h-pdr5 ccl-formpanel-descriptionlabel">Insluitcode</label>
+                        <div class="itsl-copytoclipboardpanel">
+                            <a id="ctl00_BelowTitlePlaceHolder_LinkOrEmbedDialog_CopyEmbedCodeToClipboardLink" title="Kopiëren naar klembord" class="ccl-iconlink h-fl-r" onclick="ViewLearningToolElementInstance.copyToClipboardOk(&quot;CopyEmbedCode&quot;)" href="javascript:void(0);"><img src="./bw_copy16.png" alt="" style="height:16px;width:16px;"></a>
+                            <a id="ctl00_BelowTitlePlaceHolder_LinkOrEmbedDialog_CopyEmbedCodeToClipboardOkIcon" class="ccl-iconlink h-fl-r" href="javascript:void(0);" style="display: none;"><img src="./title-edit-ok16.png" alt="" style="height:16px;width:16px;"></a>
+                        </div>
+                        <div class="itsl-linkorembedpanel">
+                            <input type="hidden" name="ctl00$BelowTitlePlaceHolder$LinkOrEmbedDialog$EmbedCodeHidden" id="ctl00_BelowTitlePlaceHolder_LinkOrEmbedDialog_EmbedCodeHidden" value="&lt;iframe width=&quot;322&quot; height=&quot;220&quot; src=&quot;https://platform.itslearning.com/Embed?lang=nl-NL&amp;p=MAA%3d&amp;s=0&quot; style=&quot;border: none&quot; scrolling=&quot;no&quot;;&gt;&lt;/iframe&gt;">
+                            <input name="ctl00$BelowTitlePlaceHolder$LinkOrEmbedDialog$EmbedCodeText" type="text" value="&lt;iframe width=&quot;322&quot; height=&quot;220&quot; src=&quot;https://platform.itslearning.com/Embed?lang=nl-NL&amp;p=MAA%3d&amp;s=0&quot; style=&quot;border: none&quot; scrolling=&quot;no&quot;;&gt;&lt;/iframe&gt;" id="ctl00_BelowTitlePlaceHolder_LinkOrEmbedDialog_EmbedCodeText" class="h-width-100 h-no-otl" onclick="$(this).select();" style="border-width:0px;">
+                        </div>
+                    </li>
+                
+			</ol>
+		</fieldset>
+            
+	</div></div><button type="button" class="ccl-cssmodal-modal-close"><svg viewBox="0 0 18 18"><path xmlns="http://www.w3.org/2000/svg" d="M1.684.002c-.428 0-.856.162-1.18.484a1.674 1.674 0 0 0-.002 2.358L6.641 8.99.488 15.125a1.674 1.674 0 0 0-.002 2.357 1.667 1.667 0 0 0 2.358.002l6.154-6.134 6.154 6.162a1.668 1.668 0 0 0 2.358.002c.648-.646.65-1.71.004-2.358l-6.155-6.16 6.153-6.135c.648-.646.648-1.71.002-2.357A1.675 1.675 0 0 0 15.156.5L9.002 6.637 2.862.488A1.662 1.662 0 0 0 1.683.002z"></path></svg><span class="ccl-cssmodal-modal-close-screenreader">Sluiten</span></button>
+</div></section><section id="ctl00_BelowTitlePlaceHolder_PublishDialog" tabindex="-1" role="dialog" aria-modal="true" class="ccl-cssmodal itsl-learningtoolelement-publish-dialog" style="z-index:6;"><div id="ctl00_BelowTitlePlaceHolder_PublishDialog_ctl00" class="ccl-cssmodal-modal-inner">
+	<div id="ctl00_BelowTitlePlaceHolder_PublishDialog_ctl01" class="ccl-cssmodal-modal-content"><iframe src="javascript:false;" class="ccl-cssmodal-modal-iframe" seamless="seamless" frameborder="0" title="" id="ctl00_BelowTitlePlaceHolder_PublishDialog_iframe" src="./saved_resource.html"></iframe></div><button type="button" class="ccl-cssmodal-modal-close"><svg viewBox="0 0 18 18"><path xmlns="http://www.w3.org/2000/svg" d="M1.684.002c-.428 0-.856.162-1.18.484a1.674 1.674 0 0 0-.002 2.358L6.641 8.99.488 15.125a1.674 1.674 0 0 0-.002 2.357 1.667 1.667 0 0 0 2.358.002l6.154-6.134 6.154 6.162a1.668 1.668 0 0 0 2.358.002c.648-.646.65-1.71.004-2.358l-6.155-6.16 6.153-6.135c.648-.646.648-1.71.002-2.357A1.675 1.675 0 0 0 15.156.5L9.002 6.637 2.862.488A1.662 1.662 0 0 0 1.683.002z"></path></svg><span class="ccl-cssmodal-modal-close-screenreader">Sluiten</span></button>
+</div></section><section id="ctl00_BelowTitlePlaceHolder_RubricDialog" tabindex="-1" role="dialog" aria-modal="true" class="ccl-cssmodal" style="z-index:6;" aria-labelledby="ctl00_BelowTitlePlaceHolder_RubricDialog_ctl00 ctl00_BelowTitlePlaceHolder_RubricDialog_ctl03"><div id="ctl00_BelowTitlePlaceHolder_RubricDialog_ctl00" class="ccl-cssmodal-modal-inner">
+	<section class="ccl-cssmodal-mobile-toolbar"><div id="ctl00_BelowTitlePlaceHolder_RubricDialog_ctl02_C" class="ccl-gridtoolbar"><ul class="itemsleft"><li><button type="button" class="ccl-cssmodal-modal-close ccl-cssmodal-modal-close-mobile"><span>Sluiten</span></button></li></ul></div></section><header id="ctl00_BelowTitlePlaceHolder_RubricDialog_ctl03" class="ccl-cssmodal-modal-header">
+                <h2 class="h-position-r h-pdr20">Criteria beheren<a title="Help" class="ccl-iconlink itsl-learning-objectives-list-help-link" href="https://davinci.itslearning.com/help.aspx?CID=459&amp;LID=4&amp;DefLanguage=4&amp;URL=ApplicationHelp_CSH.htm!2004" target="_blank"><img src="./help.svg" alt="" style="height:16px;width:16px;"></a>
+                </h2>
+            </header><div id="ctl00_BelowTitlePlaceHolder_RubricDialog_ctl10" class="ccl-cssmodal-modal-content"></div><footer id="ctl00_BelowTitlePlaceHolder_RubricDialog_ctl11" class="ccl-cssmodal-modal-footer"><input type="submit" name="ctl00$BelowTitlePlaceHolder$RubricDialog$ctl13" value="Opslaan" onclick="CssModal.closeDialog(); return false;" class="ccl-button ccl-button-color-green ccl-button-ok"></footer><button type="button" class="ccl-cssmodal-modal-close"><svg viewBox="0 0 18 18"><path xmlns="http://www.w3.org/2000/svg" d="M1.684.002c-.428 0-.856.162-1.18.484a1.674 1.674 0 0 0-.002 2.358L6.641 8.99.488 15.125a1.674 1.674 0 0 0-.002 2.357 1.667 1.667 0 0 0 2.358.002l6.154-6.134 6.154 6.162a1.668 1.668 0 0 0 2.358.002c.648-.646.65-1.71.004-2.358l-6.155-6.16 6.153-6.135c.648-.646.648-1.71.002-2.357A1.675 1.675 0 0 0 15.156.5L9.002 6.637 2.862.488A1.662 1.662 0 0 0 1.683.002z"></path></svg><span class="ccl-cssmodal-modal-close-screenreader">Sluiten</span></button>
+</div></section><input type="hidden" name="ctl00$BelowTitlePlaceHolder$CriteriaWeights" id="ctl00_BelowTitlePlaceHolder_CriteriaWeights">
+
+        <script>
+            //<![CDATA[
+            
+            if (window.self !== window.top && window.parent.location.href.indexOf("/LearningToolElement/ViewLearningToolElement.aspx") >= 0) {
+                window.parent.location = document.location;
+            }
+
+            function openPublishDialog() {
+                var modal = window["ctl00_BelowTitlePlaceHolder_PublishDialog"];
+                modal.setIframeUrl("/LearningToolElement/IntermediatePage.aspx?PageToRedirect=PublishDialog&ElementID=1189692", true);
+                modal.openDialog();
+            }
+
+            CommonFunctions.attachPostMessageEventListener(
+                $(window),
+                CommonWindowMessages.MessageNames.closeCssModalDialog,
+                function(data) {
+                    CssModal.closeDialog();
+                    if (data.extendedData && data.extendedData.refreshPage) {
+                        // there was a publish, refresh the page
+                        window.location.href = window.location.href.split('#')[0];
+                    }
+                });
+
+            attachSetIFrameTitlePostMessageEventListener('ctl00_ContentPlaceHolder_ExtensionIframe');
+            attachSetIFrameTitlePostMessageEventListener('ctl00_BelowTitlePlaceHolder_PublishDialog_iframe');
+        //]]>
+        </script>
+    
+    <input type="hidden" name="ctl00$BelowTitlePlaceHolder$UpdateVersionResultHiddenInput" id="ctl00_BelowTitlePlaceHolder_UpdateVersionResultHiddenInput">
+
+                    
+                </div>
+                <div id="ctl00_MainHolder" class="">
+                        <div>
+                        <div id="ctl00_HideableFeedbackTop">
+
+</div>
+                                <div id="ctl00_Feedback">
+
+</div>
+                                
+    
+        <div class="itsl-lo-list-lo-selector">
+            <div id="ctl00_ContentPlaceHolder_LearningObjectivesSelector"><input type="hidden" name="ctl00$ContentPlaceHolder$LearningObjectivesSelector$ctl00" id="ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl00"><div class="ccl-learningobjectivesselector-emptycontainer h-inactive" style="display: none;">
+
+</div><div class="ccl-learningobjectivesselector-selectedcontainer"></div><section id="ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal" tabindex="-1" role="dialog" aria-modal="true" class="ccl-cssmodal ccl-folderselector-treecontainer-desktop-visible ccl-folderselector-treecontainer-mobile-hidden ccl-folderselector ccl-learningobjectivesselector" style="z-index:7;" aria-labelledby="ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_ctl00 ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_ctl03"><div id="ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_ctl00" class="ccl-cssmodal-modal-inner">
+	<section class="ccl-cssmodal-mobile-toolbar"><div id="ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_ctl02_C" class="ccl-gridtoolbar"><ul class="itemsleft"><li><button type="button" class="ccl-cssmodal-modal-close ccl-cssmodal-modal-close-mobile"><span>Sluiten</span></button></li></ul></div></section><header id="ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_ctl03" class="ccl-cssmodal-modal-header"><h2>Leerdoelen toevoegen</h2></header><div id="ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_ctl06" class="ccl-cssmodal-modal-content"><div class="ccl-folderselector-navigation">
+		<div class="ccl-folderselector-filter-container">
+			<div class="ccl-folderselector-menu-toggler-container">
+				<a class="ccl-folderselector-menu-toggler"></a>
+			</div><div class="h-mrt5 h-mrb5 h-mrl10 h-fl-l">
+				<a class="ccl-iconlink ccl-folderselector-navigateuplink" onclick="window[&#39;ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03&#39;].navigateUp();" href="javascript:void(0);"><img src="./1x1.png" alt=""><span>Omhoog navigeren</span></a>
+			</div>
+		</div>
+	</div><div class="ccl-folderselector-emptycontent" style="display:none">
+		<div id="ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_ctl20_C" class="ccl-feedback ccl-feedback-warning h-clf" aria-live="polite">
+			<i id="ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_ctl20_IC" class="ili ili-exclamation-circle"></i><div id="ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_ctl20_MC" class="ccl-feedback-messagecontainer" style="display: block; overflow: hidden; max-height: 21000px;"><div id="ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_ctl20_T" style="display:inline;" class="ccl-feedback-text">Aan dit vak zijn geen leerdoelen verbonden. U kunt leerdoelen toevoegen uit <a title="Leerdoelen" href="https://davinci.itslearning.com/main.aspx?CourseID=5269&amp;TextURL=%2fLearningObjective%2fLearningObjectives.aspx%3fCourseId%3d5269%26Referrer%3dPlanner" target="_top">Instellingen &gt;&gt; Leerdoelen</a></div></div><button id="ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_ctl20_CB" style="display:none;" class="ccl-feedback-closeimage" type="button" onclick="javascript:ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_ctl20.hide();"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" role="presentation"><path d="M6.71 6L11.85.86c.2-.19.2-.51 0-.7-.19-.2-.51-.2-.7 0L6 5.29.87.15c-.2-.2-.52-.2-.71 0-.2.19-.2.51 0 .7l5.13 5.14-5.14 5.13c-.2.2-.2.52 0 .71.09.1.22.15.35.15.13 0 .26-.05.35-.15L6 6.7l5.15 5.15c.09.1.22.15.35.15.13 0 .26-.05.35-.15.2-.19.2-.51 0-.7L6.71 6z" fill="#757575" fill-rule="evenodd"></path></svg></button><div id="ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_ctl20_SMLLC" class="ccl-feedback-showmorelesslinkcontainer"><a id="ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_ctl20_SML" href="javascript:void(0);" style="display:none;"></a><a id="ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_ctl20_SLL" href="javascript:void(0);" style="display:none;"></a></div>
+		</div>
+	</div><div class="ccl-folderselector-content">
+		<div class="ccl-folderselector-contentwrapper h-clf">
+			<aside class="ccl-folderselector-treecontainer hidecontents"></aside><section class="ccl-folderselector-gridcontainer hidecontents"><div class="ccl-folderselector-gridheader"><h2 style="display:none;"></h2><span></span></div><div id="ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_ctl25_C" class="ccl-feedback ccl-feedback-information h-clf" aria-live="polite" style="display:none;">
+				<i id="ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_ctl25_IC" class="ili ili-info-circle"></i><div id="ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_ctl25_MC" class="ccl-feedback-messagecontainer" style="display: block; overflow: hidden; max-height: 21000px;"><div id="ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_ctl25_T" style="display:none;" class="ccl-feedback-text"></div></div><button id="ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_ctl25_CB" class="ccl-feedback-closeimage" type="button" onclick="javascript:ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_ctl25.hide();"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" role="presentation"><path d="M6.71 6L11.85.86c.2-.19.2-.51 0-.7-.19-.2-.51-.2-.7 0L6 5.29.87.15c-.2-.2-.52-.2-.71 0-.2.19-.2.51 0 .7l5.13 5.14-5.14 5.13c-.2.2-.2.52 0 .71.09.1.22.15.35.15.13 0 .26-.05.35-.15L6 6.7l5.15 5.15c.09.1.22.15.35.15.13 0 .26-.05.35-.15.2-.19.2-.51 0-.7L6.71 6z" fill="#757575" fill-rule="evenodd"></path></svg></button><div id="ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_ctl25_SMLLC" class="ccl-feedback-showmorelesslinkcontainer"><a id="ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_ctl25_SML" href="javascript:void(0);" style="display:none;"></a><a id="ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_ctl25_SLL" href="javascript:void(0);" style="display:none;"></a></div>
+			</div><div id="ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid_C" class="ccl-grid"><div id="ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid_FB_C" class="ccl-feedback ccl-feedback-information h-clf" aria-live="polite" style="display:none;">
+				<i id="ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid_FB_IC" class="ili ili-info-circle"></i><div id="ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid_FB_MC" class="ccl-feedback-messagecontainer" style="display: block; overflow: hidden; max-height: 21000px;"><div id="ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid_FB_T" style="display:none;" class="ccl-feedback-text"></div></div><button id="ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid_FB_CB" class="ccl-feedback-closeimage" type="button" onclick="javascript:ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid_FB.hide();"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" role="presentation"><path d="M6.71 6L11.85.86c.2-.19.2-.51 0-.7-.19-.2-.51-.2-.7 0L6 5.29.87.15c-.2-.2-.52-.2-.71 0-.2.19-.2.51 0 .7l5.13 5.14-5.14 5.13c-.2.2-.2.52 0 .71.09.1.22.15.35.15.13 0 .26-.05.35-.15L6 6.7l5.15 5.15c.09.1.22.15.35.15.13 0 .26-.05.35-.15.2-.19.2-.51 0-.7L6.71 6z" fill="#757575" fill-rule="evenodd"></path></svg></button><div id="ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid_FB_SMLLC" class="ccl-feedback-showmorelesslinkcontainer"><a id="ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid_FB_SML" href="javascript:void(0);" style="display:none;"></a><a id="ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid_FB_SLL" href="javascript:void(0);" style="display:none;"></a></div>
+			</div><table id="ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid_T" class="gridtable"><thead id="ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid_TH"></thead><tbody id="ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid_TB"></tbody></table><div id="ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid_PC" style="display: none;"><div id="ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid_ctl01" class="ccl-pager">
+				<ul class="ccl-pagination"></ul>
+			</div></div><input type="hidden" name="ctl00$ContentPlaceHolder$LearningObjectivesSelector$ctl03$CssModal$Grid$HPN" id="ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid_HPN" value="1"><input type="hidden" name="ctl00$ContentPlaceHolder$LearningObjectivesSelector$ctl03$CssModal$Grid$HPS" id="ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid_HPS" value="25"><input type="hidden" name="ctl00$ContentPlaceHolder$LearningObjectivesSelector$ctl03$CssModal$Grid$HSO" id="ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid_HSO"><input type="hidden" name="ctl00$ContentPlaceHolder$LearningObjectivesSelector$ctl03$CssModal$Grid$HFI" id="ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid_HFI"><input type="hidden" name="ctl00$ContentPlaceHolder$LearningObjectivesSelector$ctl03$CssModal$Grid$HCO" id="ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid_HCO" value="Item"><input type="hidden" name="ctl00$ContentPlaceHolder$LearningObjectivesSelector$ctl03$CssModal$Grid$HSE" id="ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid_HSE"><input type="hidden" name="ctl00$ContentPlaceHolder$LearningObjectivesSelector$ctl03$CssModal$Grid$HGC" id="ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid_HGC"></div></section>
+		</div><div class="ccl-folderselector-loadingindicator"><span>Wordt geladen...</span></div>
+	</div></div><footer id="ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_ctl27" class="ccl-cssmodal-modal-footer"><a class="ccl-button ccl-button-color-green ccl-button-ok ccl-folderselector-selectbutton" onclick="window[&#39;ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03&#39;].saveSelection();" href="javascript:void(0);">Invoegen</a><a class="ccl-button ccl-button-color-green ccl-button-ok ccl-folderselector-selectclosebutton" onclick="window[&#39;ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03&#39;].saveSelectionAndClose();" href="javascript:void(0);">Invoegen en sluiten</a><a class="ccl-button ccl-button-color-grey" href="https://davinci.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=1189692#!">Sluiten</a></footer><button type="button" class="ccl-cssmodal-modal-close"><svg viewBox="0 0 18 18"><path xmlns="http://www.w3.org/2000/svg" d="M1.684.002c-.428 0-.856.162-1.18.484a1.674 1.674 0 0 0-.002 2.358L6.641 8.99.488 15.125a1.674 1.674 0 0 0-.002 2.357 1.667 1.667 0 0 0 2.358.002l6.154-6.134 6.154 6.162a1.668 1.668 0 0 0 2.358.002c.648-.646.65-1.71.004-2.358l-6.155-6.16 6.153-6.135c.648-.646.648-1.71.002-2.357A1.675 1.675 0 0 0 15.156.5L9.002 6.637 2.862.488A1.662 1.662 0 0 0 1.683.002z"></path></svg><span class="ccl-cssmodal-modal-close-screenreader">Sluiten</span></button>
+</div></section></div>
+        </div>
+    
+
+    <div id="ctl00_ContentPlaceHolder_MainContainer" class="h-position-r">
+	
+            
+            <section id="ctl00_ContentPlaceHolder_ExtensionContent" class="itsl-lte-content">
+                
+                <div id="ctl00_Extension_5" class="itsl-lte-telemetry"></div>
+                <iframe src="./LoginSSO.html" id="ctl00_ContentPlaceHolder_ExtensionIframe" title="Pagina" allow="microphone *; camera *" webkitallowfullscreen="true" seamless="seamless" mozallowfullscreen="true" style="width: 100%; border: none; min-height: 539.344px; height: 1041px;" allowfullscreen="true" allowtransparency="true" scrolling="no"></iframe>
+                <div id="loadingindicator" class="itsl-ajax-loader" style="display: none;"></div>
+            </section>
+        
+</div>
+
+                                <div id="ctl00_BottomFeedback">
+
+</div>
+                                
+                                
+                        </div>
+                    </div>
+                
+                
+                
+            
+
+<script type="text/javascript">
+//<![CDATA[
+$(function() { IframeResizer.registerDefaultHeight({"iframeClientId":"ctl00_ContentPlaceHolder_ExtensionIframe","setIframeDefaultHeightFunctionName":"setIframeDefaultHeight","useMinHeight":true}, postHeightToExtension);});$(function() { IframeResizer.registerExtensionIframeListener({"IframeClientId":"ctl00_ContentPlaceHolder_ExtensionIframe","ExpandedIframeCssClass":"itsl-lte-expanded-iframe"});});
+var settings = {"serviceUrl":"/RestApi/personal/statistics/events/v1","antiForgery":{"headerName":"__ITSL_ANTIFORGERY_TOKEN__","headerValue":"kl4Qbj7e1AEBywEAAJNMBgB9/Znz9HWZ0qyuNEtbaUHaJ5UIjv1XyR5iDPfFLapdHucKdQ2VTd+q7A1DhC3M/mcg71vPS06hrxI+v5ZQIIxl"}};
+window.personActivityLogger = window.personActivityLogger || new PersonActivityLogger(settings);
+window.personActivityLogger.initialize(60, 
+                    [{"Type":1,"DateTime":"0001-01-01T00:00:00","Payload":{"ElementId":1189692,"EndDateTime":null}},{"Type":0,"DateTime":"0001-01-01T00:00:00","Payload":{"LocationType":1,"LocationId":5269,"EndDateTime":null}}]);
+
+$(function() {
+    window["ViewLearningToolElementInstance"] = new ViewLearningToolElement({"backPageUrl":"/Folder/processfolder.aspx?FolderID=1183256","onboardingServiceUrl":"/RestApi/personal/onboarding/{featureId}/v1","cloudFilePermissionErrorUrl":"/LearningToolElement/CloudPermissionErrorPage.aspx?LearningToolElementId=1189692","optionsOnboradingClientId":"ctl00_BelowTitlePlaceHolder_LearningToolOptionsOnboarding","pageFunctionsClientId":"ctl00_BelowTitlePlaceHolder_PageFunctionsOnboarding","rubricDialogClientInstanceName":"ctl00_BelowTitlePlaceHolder_RubricDialog","canEdit":false,"elementId":1189692,"folderId":1183256,"isCopy":false,"showRateEventName":"showRate","rateFeedbackShowForSeconds":5,"refreshTreeMenuMessageName":"RefreshTreeMenu","copyStatusFeedbackInstanceName":"ctl00_BelowTitlePlaceHolder_CopyStatusFeedback","copyStatus":1,"rateSuccessEventName":"rate:Success","isShared":false,"isActive":true,"addedParam":"Added","controls":{"titleLabel":"ctl00_PageHeader_TT","rateHidden":"ctl00_BelowTitlePlaceHolder_RatingSelector_ctl00","rateHiddenInDialog":"ctl00_BelowTitlePlaceHolder_ReviewDialog_RatingSelectorInDialog_ctl00","progressPanel":"ctl00_BelowTitlePlaceHolder_ProgressPanel","createNewVersionLinkContainer":"ctl00_PageFunctionsPlaceHolder_ctl03_CreateNewVersionLinkContainer","ratingPanel":"ctl00_BelowTitlePlaceHolder_RateFeedback","progressLabel":"ctl00_BelowTitlePlaceHolder_ProgressLabel","commentInput":"ctl00_BelowTitlePlaceHolder_ReviewDialog_CommentTextBox","rateFeedback":"ctl00_BelowTitlePlaceHolder_RateFeedback","currentRateHidden":"ctl00_BelowTitlePlaceHolder_ReviewDialog_currentRateHidden","currentCommentHidden":"ctl00_BelowTitlePlaceHolder_ReviewDialog_currentCommentHidden","linkOrEmbedDialog":"ctl00_BelowTitlePlaceHolder_LinkOrEmbedDialog","copyLink":"ctl00_PageFunctionsPlaceHolder_ctl03_LinkOrEmbed","extensionIframe":"ctl00_ContentPlaceHolder_ExtensionIframe","linkText":"ctl00_BelowTitlePlaceHolder_LinkOrEmbedDialog_LinkText","embedCodeText":"ctl00_BelowTitlePlaceHolder_LinkOrEmbedDialog_EmbedCodeText","copyEmbedCodeToClipboardOkIcon":"ctl00_BelowTitlePlaceHolder_LinkOrEmbedDialog_CopyEmbedCodeToClipboardOkIcon","copyLinkToClipboardOkIcon":"ctl00_BelowTitlePlaceHolder_LinkOrEmbedDialog_CopyLinkToClipboardOkIcon","embedUrlHidden":"ctl00_BelowTitlePlaceHolder_LinkOrEmbedDialog_EmbedUrlHidden","embedCodeHidden":"ctl00_BelowTitlePlaceHolder_LinkOrEmbedDialog_EmbedCodeHidden","extensionContent":"ctl00_ContentPlaceHolder_ExtensionContent","printLink":"ctl00_PageFunctionsPlaceHolder_ctl03_PrintLink","pageFunctionsCogwheel":"ctl00_PageFunctionsPlaceHolder_ctl00","pageFunctionsCogwheelMenu":"ctl00_PageFunctionsPlaceHolder_ctl03_M"},"webMethods":{"updateTitle":"/RestApi/elements/{elementId}/title/v1","rate":"/RestApi/learningtoolelements/{elementId}/review/v1","startCopying":"/RestApi/learningtoolelements/{elementId}/copy/v1","flushCopyStatus":"/RestApi/learningtoolelements/{elementId}/copy/status/flushing/v1","checkCopyStatus":"/RestApi/learningtoolelements/{elementId}/copy/status/v1","notifyAboutChanges":"/RestApi/notifications/notifyAboutChanges","sendReminders":"/RestApi/notifications/sendElementReminders"},"enums":{"copyStatus":{"none":1,"inProgress":2,"completed":3,"failed":4},"feedbackType":{"information":0,"error":1,"warning":2,"tip":3,"functionality":4}},"terms":{"errorMessage":"Er is iets fout gegaan. Probeer het opnieuw.","emptyTitleErrorMessage":"De titel mag niet leeg zijn","notAllowedToRateMessage":"U mag dit nu niet beoordelen.","cancel":"Annuleren","startCopyingConfirmation":"Als u een eigen kopie maakt, kunt u de bron wijzigen, maar daardoor verbreekt u de verbinding met het origineel en met eventuele toekomstige updates.","startUpdatingConfirmation":"Wilt u bijwerken naar de nieuwe versie?","pleaseConfirm":"Bevestigen","creatingCopySucceededFeedback":"Een kopie is gemaakt. \u003ca href=\"/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=1189692\u0026FlushCopyStatus=True\"\u003ePagina vernieuwen\u003c/a\u003e.","creatingNewVersionSucceededFeedback":"We hebben een nieuwe kopie voor u gemaakt. U kunt nu uw eigen wijzigingen maken. \u003ca href=\"/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=1189692\u0026FlushCopyStatus=True\"\u003ePagina vernieuwen\u003c/a\u003e.","creatingCopyFailedFeedback":"Het maken van een kopie is mislukt. \u003ca href=\"/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=1189692\u0026FlushCopyStatus=True\"\u003ePagina vernieuwen\u003c/a\u003e.","creatingNewVersionFailedFeedback":"Het is niet gelukt de kopie te maken. \u003ca href=\"/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=1189692\u0026FlushCopyStatus=True\"\u003ePagina vernieuwen\u003c/a\u003e.","creatingNewVersionProgressFeedback":"Uw eigen kopie wordt nu gemaakt. Dit kan enige seconden tot minuten duren. U kunt hierop wachten of later terugkomen.","copyingStatusChangedFeedback":"Aanvraag verwerkt \u003ca href=\"/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=1189692\u0026FlushCopyStatus=True\"\u003ePagina vernieuwen\u003c/a\u003e.","warning":"Waarschuwing","ok":"OK","notifyAboutChangesConfirmation":"Weet u zeker dat u een melding wilt versturen om gebruikers te informeren dat deze pagina is bijgewerkt?","sendRemindersYes":"Ja, nu verzenden","sendRemindersDetails":"Wilt u een herinnering verzenden aan alle deelnemers die nog niets hebben ingeleverd?","sendReminders":"Herinneringen verzenden"},"cssClasses":{"container":"ccl-pageheader","title":"ccl-pageheader-title","reviewTitleLink":"itsl-review-title","inactive":"h-inactive","pageFunctionDependsFromElementActivation":"itsl-page-feature-depends-activation","iosScrollFix":"itsl-learningtoolelement-ios-scroll-fix","onboardingDialogMask":"ccl-onboarding-dialog-mask"},"learningObjectiveEditorEvents":{"addedClientEventName":"LearningObjectiveEditor:add","deletedClientEventName":"LearningObjectiveEditor:delete"},"elementTitleEditorClientSettings":{"MaxLength":255,"UpdateTitleWebMethod":"/RestApi/elements/{elementId}/title/v1","CssClasses":{"EditFieldCssClass":"ccl-pageheader-title-editor","RightLinkViewModeCssClass":"ccl-pageheader-titlelink-viewmode","RightLinkEditModeCssClass":"ccl-pageheader-titlelink-editmode"},"Terms":{"ClickToEditToolTip":"Klik hier om de titel te bewerken","ClickToSaveToolTip":"Klik hier om de titel op te slaan","EmptyTitleErrorMessage":"De titel mag niet leeg zijn","ErrorOccured":"Er is een fout opgetreden","Ok":"OK"}},"antiForgerySettings":{"headerName":"__ITSL_ANTIFORGERY_TOKEN__","headerValue":"9MASbj7e1AEBywEAAJNMBgCQx1WbMhpfNBWzgld2Kknk3lZjQUTzUkLaH1YpVzyc5YM9ghoM12ctMaCbXbaFWWQphKa23x0WpcImIu/J3uCf"}}, null, null);
+    
+});$(function() { IframeClickEventHelper.handleDocumentClickBubblingOnTop(); });$(function() { if (!window.DropDownMenuCommonSettings) { window.DropDownMenuCommonSettings = {"horizontalPositions":{"leftEdge":0,"rightEdge":1,"rightEdgeRightOffset":2,"auto":3,"leftEdgeParentRightBorder":4,"center":5}}; } });
+$(function() {
+var m = new DropDownMenu("ctl00_PageFunctionsPlaceHolder_ctl03", false);
+m.settings = {"zIndex":10000,"closeMenuWhenClickingInside":true,"closeMenuWhenClickingOnLink":true,"setMinWidthByTarget":false,"horizontalPosition":1,"showMenuOnHover":false,"isIos":false,"useTargetPosition":false,"appendToBody":false,"autofitHeight":false,"useFixedPosition":false,"cssClasses":{"selectedHolder":"ccl-dropdownmenu-menuitem-selected","targetLink":"ccl-dropdownmenu-targetlink"},"renderListItemButton":false};
+m.controls =
+{
+    targetLinkId: "ctl00_PageFunctionsPlaceHolder_ctl01",
+    layoutAlignmentControlId: "ctl00_PageFunctionsPlaceHolder_ctl01",
+    menuContainerId: "ctl00_PageFunctionsPlaceHolder_ctl03_M"
+};
+m.initialize();
+});
+
+                $(function() {
+                    var onboardingDialog = $("#ctl00_BelowTitlePlaceHolder_LearningToolOptionsOnboarding_OnboardingDialogContainer");
+                    new CCL.OnboardingDialog(onboardingDialog, {"TargetSelector":null,"Alignment":0,"ZIndex":999,"MaxWidth":null,"DialogClientId":"ctl00_BelowTitlePlaceHolder_LearningToolOptionsOnboarding","FooterClientId":"ctl00_BelowTitlePlaceHolder_LearningToolOptionsOnboarding_OnboardingDialogFooter","DialogCssClass":"ccl-onboarding-dialog","CloseButtonCssClass":"ccl-onboarding-dialog-close","CloseLinkCssClass":"ccl-context-dialog-big-close","OnboardingServiceUrl":"/RestApi/personal/onboarding/{featureId}/v1","OnboardingFeatureId":0,"RegisterOnboardingCompletion":true,"StartOpened":false,"ShowArrow":true,"ShowCloseLink":false,"RepositionArrowOnResize":false,"ShowMask":false,"HighlightInMaskSelector":null,"PutAfterElementInDomSelector":null,"AppendMaskToSelector":null,"ExtraGotItSelector":null,"AllowMobileView":false,"ScrollIntoViewOnShow":false,"CloseAfterClickOutside":false,"AntiForgeryHeaderName":"__ITSL_ANTIFORGERY_TOKEN__","AntiForgeryHeaderValue":"9MASbj7e1AEBywEAAJNMBgCQx1WbMhpfNBWzgld2Kknk3lZjQUTzUkLaH1YpVzyc5YM9ghoM12ctMaCbXbaFWWQphKa23x0WpcImIu/J3uCf","ClientInstanceName":"ctl00_BelowTitlePlaceHolder_LearningToolOptionsOnboarding"});
+                });
+                $(function() {
+                    var onboardingDialog = $("#ctl00_BelowTitlePlaceHolder_PageFunctionsOnboarding_OnboardingDialogContainer");
+                    new CCL.OnboardingDialog(onboardingDialog, {"TargetSelector":null,"Alignment":0,"ZIndex":999,"MaxWidth":null,"DialogClientId":"ctl00_BelowTitlePlaceHolder_PageFunctionsOnboarding","FooterClientId":"ctl00_BelowTitlePlaceHolder_PageFunctionsOnboarding_OnboardingDialogFooter","DialogCssClass":"ccl-onboarding-dialog","CloseButtonCssClass":"ccl-onboarding-dialog-close","CloseLinkCssClass":"ccl-context-dialog-big-close","OnboardingServiceUrl":"/RestApi/personal/onboarding/{featureId}/v1","OnboardingFeatureId":0,"RegisterOnboardingCompletion":true,"StartOpened":false,"ShowArrow":true,"ShowCloseLink":false,"RepositionArrowOnResize":false,"ShowMask":false,"HighlightInMaskSelector":null,"PutAfterElementInDomSelector":null,"AppendMaskToSelector":null,"ExtraGotItSelector":null,"AllowMobileView":false,"ScrollIntoViewOnShow":false,"CloseAfterClickOutside":false,"AntiForgeryHeaderName":"__ITSL_ANTIFORGERY_TOKEN__","AntiForgeryHeaderValue":"9MASbj7e1AEBywEAAJNMBgCQx1WbMhpfNBWzgld2Kknk3lZjQUTzUkLaH1YpVzyc5YM9ghoM12ctMaCbXbaFWWQphKa23x0WpcImIu/J3uCf","ClientInstanceName":"ctl00_BelowTitlePlaceHolder_PageFunctionsOnboarding"});
+                });$(function() { CssModal.commonSettings = {"cssClasses":{"isActive":"is-active","content":"ccl-cssmodal-modal-content","iframe":"ccl-cssmodal-modal-iframe","inner":"ccl-cssmodal-modal-inner","overlay":"ccl-cssmodal-has-overlay","overlayIos":"ccl-cssmodal-has-overlay-ios","close":"ccl-cssmodal-modal-close","header":"ccl-cssmodal-modal-header","footer":"ccl-cssmodal-modal-footer","webkitOverflow":"ccl-modal-webkit-overflow"},"events":{"show":"cssmodal:show","hide":"cssmodal:hide"}}; CssModal.modes = {"statically":0,"iframeStatically":1,"iframeDynamically":2,"ajaxStatically":3,"ajaxDynamically":4} });
+(function(){
+var m = new CssModal('ctl00_BelowTitlePlaceHolder_LinkOrEmbedDialog');
+$(function() {
+var m_settings = {"isIos":false,"expandToAllWindowSize":true,"resizeTimeoutInMilliseconds":10,"headerCssClass":"ccl-cssmodal-modal-header","ajaxUrl":"","iframeUrl":"javascript:false;","IframeAllowMedia":false,"IframeClientId":"ctl00_BelowTitlePlaceHolder_LinkOrEmbedDialog_iframe","loadingText":"Wordt geladen...","preferredWidth":700,"preferredHeight":0,"hideFooterInMobileView":false,"minContentWidth":0,"minContentHeight":0,"closeButtonClass":"ccl-cssmodal-modal-close","mobileExpandedNestedContentClass":"ccl-cssmodal-mobile-expanded-nested-content","mode":0,"userInputControlsSelector":null,"iframeTitle":"","isNestedDialog":false,"addMaskToTopMenu":false,"PreventScrollingBeforeCloseDialog":false};
+var m_customScripts =
+{
+    afterOpenDialog: undefined,
+    beforeOpenDialog: undefined,
+    beforeCloseDialog: undefined,
+    afterCloseDialog: undefined
+};
+var m_controls =
+{
+container: $('#ctl00_BelowTitlePlaceHolder_LinkOrEmbedDialog'),
+contentContainer: $('#ctl00_BelowTitlePlaceHolder_LinkOrEmbedDialog_ctl05'),
+headerContainer: $('#ctl00_BelowTitlePlaceHolder_LinkOrEmbedDialog_ctl03'),
+innerContainer: $('#ctl00_BelowTitlePlaceHolder_LinkOrEmbedDialog_ctl00'),
+footerContainer: $('#undefined')
+};
+m.initialize(m_controls, m_customScripts, m_settings);
+
+});
+})();
+
+(function(){
+var m = new CssModal('ctl00_BelowTitlePlaceHolder_PublishDialog');
+$(function() {
+var m_settings = {"isIos":false,"expandToAllWindowSize":false,"resizeTimeoutInMilliseconds":10,"headerCssClass":"ccl-cssmodal-modal-header","ajaxUrl":"","iframeUrl":"javascript:false;","IframeAllowMedia":false,"IframeClientId":"ctl00_BelowTitlePlaceHolder_PublishDialog_iframe","loadingText":"Wordt geladen...","preferredWidth":600,"preferredHeight":540,"hideFooterInMobileView":false,"minContentWidth":0,"minContentHeight":0,"closeButtonClass":"ccl-cssmodal-modal-close","mobileExpandedNestedContentClass":"ccl-cssmodal-mobile-expanded-nested-content","mode":1,"userInputControlsSelector":null,"iframeTitle":"","isNestedDialog":false,"addMaskToTopMenu":true,"PreventScrollingBeforeCloseDialog":false};
+var m_customScripts =
+{
+    afterOpenDialog: undefined,
+    beforeOpenDialog: undefined,
+    beforeCloseDialog: undefined,
+    afterCloseDialog: undefined
+};
+var m_controls =
+{
+container: $('#ctl00_BelowTitlePlaceHolder_PublishDialog'),
+contentContainer: $('#ctl00_BelowTitlePlaceHolder_PublishDialog_ctl01'),
+headerContainer: $('#undefined'),
+innerContainer: $('#ctl00_BelowTitlePlaceHolder_PublishDialog_ctl00'),
+footerContainer: $('#undefined')
+};
+m.initialize(m_controls, m_customScripts, m_settings);
+
+});
+})();
+
+(function(){
+var m = new CssModal('ctl00_BelowTitlePlaceHolder_RubricDialog');
+$(function() {
+var m_settings = {"isIos":false,"expandToAllWindowSize":true,"resizeTimeoutInMilliseconds":10,"headerCssClass":"ccl-cssmodal-modal-header","ajaxUrl":"","iframeUrl":"javascript:false;","IframeAllowMedia":false,"IframeClientId":"ctl00_BelowTitlePlaceHolder_RubricDialog_iframe","loadingText":"Wordt geladen...","preferredWidth":1000,"preferredHeight":680,"hideFooterInMobileView":true,"minContentWidth":0,"minContentHeight":0,"closeButtonClass":"ccl-cssmodal-modal-close","mobileExpandedNestedContentClass":"ccl-cssmodal-mobile-expanded-nested-content","mode":2,"userInputControlsSelector":null,"iframeTitle":"","isNestedDialog":false,"addMaskToTopMenu":false,"PreventScrollingBeforeCloseDialog":false};
+var m_customScripts =
+{
+    afterOpenDialog: undefined,
+    beforeOpenDialog: undefined,
+    beforeCloseDialog: function() { window.ViewLearningToolElementInstance.closeManageRubricDialog(); return false; },
+    afterCloseDialog: undefined
+};
+var m_controls =
+{
+container: $('#ctl00_BelowTitlePlaceHolder_RubricDialog'),
+contentContainer: $('#ctl00_BelowTitlePlaceHolder_RubricDialog_ctl10'),
+headerContainer: $('#ctl00_BelowTitlePlaceHolder_RubricDialog_ctl03'),
+innerContainer: $('#ctl00_BelowTitlePlaceHolder_RubricDialog_ctl00'),
+footerContainer: $('#ctl00_BelowTitlePlaceHolder_RubricDialog_ctl11')
+};
+m.initialize(m_controls, m_customScripts, m_settings);
+
+});
+})();
+$(function() { CssModal.commonSettings = {"cssClasses":{"isActive":"is-active","content":"ccl-cssmodal-modal-content","iframe":"ccl-cssmodal-modal-iframe","inner":"ccl-cssmodal-modal-inner","overlay":"ccl-cssmodal-has-overlay","overlayIos":"ccl-cssmodal-has-overlay-ios","close":"ccl-cssmodal-modal-close","header":"ccl-cssmodal-modal-header","footer":"ccl-cssmodal-modal-footer","webkitOverflow":"ccl-modal-webkit-overflow"},"events":{"show":"cssmodal:show","hide":"cssmodal:hide"}}; CssModal.modes = {"statically":0,"iframeStatically":1,"iframeDynamically":2,"ajaxStatically":3,"ajaxDynamically":4} });
+(function(){
+var m = new CssModal('ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal');
+$(function() {
+var m_settings = {"isIos":false,"expandToAllWindowSize":true,"resizeTimeoutInMilliseconds":10,"headerCssClass":"ccl-cssmodal-modal-header","ajaxUrl":"","iframeUrl":"javascript:false;","IframeAllowMedia":false,"IframeClientId":"ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_iframe","loadingText":null,"preferredWidth":810,"preferredHeight":600,"hideFooterInMobileView":false,"minContentWidth":0,"minContentHeight":0,"closeButtonClass":"ccl-cssmodal-modal-close","mobileExpandedNestedContentClass":"ccl-cssmodal-mobile-expanded-nested-content","mode":0,"userInputControlsSelector":null,"iframeTitle":"","isNestedDialog":false,"addMaskToTopMenu":false,"PreventScrollingBeforeCloseDialog":false};
+var m_customScripts =
+{
+    afterOpenDialog: undefined,
+    beforeOpenDialog: function() { window['ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03'].buildStructure(); },
+    beforeCloseDialog: undefined,
+    afterCloseDialog: function() { window['ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03'].disposeStructure(); }
+};
+var m_controls =
+{
+container: $('#ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal'),
+contentContainer: $('#ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_ctl06'),
+headerContainer: $('#ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_ctl03'),
+innerContainer: $('#ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_ctl00'),
+footerContainer: $('#ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_ctl27')
+};
+m.initialize(m_controls, m_customScripts, m_settings);
+
+});
+})();
+
+new CclAjaxGrid("ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid");
+ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid.pageNumberHiddenClientID = "ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid_HPN";
+ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid.pageSizeHiddenClientID = "ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid_HPS";
+ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid.mainColumn = "Item";
+ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid.sortingHiddenClientID = "ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid_HSO";
+ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid.filteringHiddenClientID = "ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid_HFI";
+ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid.dataSourceWebMethodUrl = "/RestApi/course/learningobjective/repository/all/v1?CourseID=5269";
+ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid.gridClientID = "ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid_T";
+ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid.columnChooserClientID = "CLS";
+ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid.columnChooserDialogName = "ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid_CC_C";
+ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid.pagerInstanceName = "ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid_P";
+ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid.allowSelecting = true;
+ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid.allowColumnChoosing = false;
+ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid.dataKeyName = "Id";
+ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid.selectingHiddenClientID = "ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid_HSE";
+ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid.columnOrderHiddenClientID = "ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid_HCO";
+ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid.preferenceCategoryName = "";
+ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid.keepSelection = false;
+ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid.allowRowExpanding = false;
+ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid.accordionDataSourceUrl = "";
+ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid.accordionDataSourceUrlParameterName = "id";
+ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid.emptyTableText = "Er zijn geen items gevonden";
+ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid.dataSourceWebMethodParams = {};
+ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid.saveToPreferencesWebMethodUrl = "";
+ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid.gridContentHiddenClientID = "ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid_HGC";
+ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid.gridEmbeddedInAccordionGridControlClientId = "";
+ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid.cssClass = "";
+ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid.cclGridConstants = {
+terms:
+{
+    selectAllRows: "",
+    selectOneRow: "",
+    columnChooserToolTip: "",
+    columnChooserHelpText: "",
+    sortedAscendingToolTip: "",
+    sortedDescendingToolTip: "",
+    clickToSortToolTip: ""
+},
+preferenceKeys:
+{
+    pagesize: "GridPageSize",
+    columnOrder: "Columns",
+    sorting: "GridSorting",
+    filtering: "GridFiltering"
+},    
+cssClasses:
+{
+    selectedRow: "selectedrow",
+    selectColumn: "selectcolumn",
+    columnChooser: "columnchooser",
+    columnChooserColumn: "columnchoosercolumn",
+    columnChooserLink: "columnchooserlink",
+    hiddenLabel: "h-hidden",
+    emptyTableCell: "emptytablecell",
+    alternateRow: "alternaterow",
+    accordionRow: "accordionrow",
+    thSelected: "thselected",
+    thSortable: "thsortable",
+    thText: "thtext",
+    sortingAsc: "sortingasc",
+    sortingDesc: "sortingdesc",
+    gridEmbededInAccordionGridControlLoadingCssClass: "gridembededinaccordiongridcontrolloading",
+    rowClickable: "h-cursor-pointer",
+    checkboxCssClass: "ccl-checkbox-input",
+},
+minRowCount: 0,
+onePixelTransparentImageUrl: "https://statics.itslearning.com/v3.105.0.365/icons/1x1.png",
+rowTooltipTextProperty: ""
+}
+ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid.dataKeySelectionVisible = "Selectable";
+ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid.postbackFunction = function() {__doPostBack('ctl00$ContentPlaceHolder$LearningObjectivesSelector$ctl03$CssModal$Grid','');};
+ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid.pagerContainerClientId = "ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid_PC";
+ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid.hidePagerWhenTotalCountLessMinPageSize = true;
+ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid.dataKeySelectionDisabled = "";
+ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid.dataKeySelectionToolTip = "";
+ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid.virtualCount = 0;
+ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid.rowClickable = "false";
+ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid.selectAllCheckBoxClientID = "input"
+ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid.columns = new Array(
+    new CclGridColumn("Item", "", "Item", null, false, "Item", "ccl-folderselector-itemcell", false));
+ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid.defaultColumnOrder = new Array("Item");
+
+function ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid_updateColumnsList()
+{
+    return ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid.updateColumnsList();
+}
+ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid.createColumnChooser("columnchoosercolumnempty");
+ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid.init();
+
+
+$(function() {
+var p = new Pager("ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid_P");
+p.customScripts =
+{
+    goToPage : function(args){ ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid.goToPage(args.pageNumber); },
+    changePageSize : function(args){ ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid.changePageSize(args.pageSize); }
+};
+p.events = undefined;
+p.controls = 
+{
+    pagerContainer : $("#ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid_ctl01")
+};
+p.totalCount = 0;
+p.pageSize = 25;
+p.pageNumber = 1;
+p.mode = 51;
+p.settings = {"pagerMode":{"nextPrev":1,"numericPages":2,"pageSize":4,"nextPrevBeforeNumericPages":8,"pageSizeDropdown":16,"pageInfo":32,"pageSizeStaticLabel":64},"cssClasses":{"main":"ccl-pager","pager":"ccl-pagination","pageSizeChooser":"page-size-chooser h-is-not-mobile","previousNext":"previous-next","selectedItem":"selected","prevArrow":"previousarrow","prevArrowDisabled":"previousarrowdisabled","nextArrow":"nextarrow","nextArrowDisabled":"nextarrowdisabled","text":"text","pageSizeChooserLabel":null,"pageSizeStaticLabel":"ccl-pager-pagesizestaticlabel"},"terms":{"previous":"Vorige","next":"Volgende","pageSizeChooserLabel":null,"pageSizeItemPrefix":"Weergeven","pageInfoLabelTemplate":"{0} tot {1} van {2}"},"pageSizes":[25,50,100],"pageLinksNearSelectedCount":2};
+p.initialize();
+});
+var idUpdateNavigation = 0;
+var nUpdateNavigation = 0;
+var navUpdated = 0;
+var currentPathFromHome = "<li><span>\x3ca title=\x22Bronnen\x22 Onclick=\x22CommonFunctions.measureKpi(&quot;/RestApi/common/kpi/v1&quot;, 91, 599, 1);\x22 href=\x22/Folder/processfolder.aspx?FolderID=1069101\x22 target=\x22mainmenu\x22\x3eBronnen\x3c/a\x3e</span></li><li><span class=\"l-breadcrumbs-separator\">/</span><span>\x3ca title=\x22Jaar 1\x22 Onclick=\x22CommonFunctions.measureKpi(&quot;/RestApi/common/kpi/v1&quot;, 91, 599, 1);\x22 href=\x22/Folder/processfolder.aspx?FolderID=1069104\x22 target=\x22mainmenu\x22\x3eJaar 1\x3c/a\x3e</span></li><li><span class=\"l-breadcrumbs-separator\">/</span><span>\x3ca title=\x22Blok 3\x22 Onclick=\x22CommonFunctions.measureKpi(&quot;/RestApi/common/kpi/v1&quot;, 91, 599, 1);\x22 href=\x22/Folder/processfolder.aspx?FolderID=1069109\x22 target=\x22mainmenu\x22\x3eBlok 3\x3c/a\x3e</span></li><li><span class=\"l-breadcrumbs-separator\">/</span><span>\x3ca title=\x22Week 24 t/m 25 - Templating\x22 Onclick=\x22CommonFunctions.measureKpi(&quot;/RestApi/common/kpi/v1&quot;, 91, 599, 1);\x22 href=\x22/Folder/processfolder.aspx?FolderID=1183256\x22 target=\x22mainmenu\x22\x3eWeek 24 t/m 25 - Templating\x3c/a\x3e</span></li>";
+
+function UpdateNavigation()
+{
+    if (idUpdateNavigation != 0 && !window.top[CCL.CommonWindowMessages.MessageNames.suspendUpdateBreadCrumbsAndNavigation])
+    {
+        clearTimeout(idUpdateNavigation);
+        idUpdateNavigation = 0;
+    }
+    nUpdateNavigation++;
+var topframe = top;
+if (navUpdated == 0 && topframe && typeof( topframe.SelectCurrentMenuItem ) == 'function')
+{
+    navUpdated = 1;topframe.SelectCurrentMenuItem( "l-menu-course" );topframe.SelectCurrentLocation( "OPDRACHT PORTFOLIO CSS FRAMEWORK", currentPathFromHome,1189692 );}
+    if (navUpdated == 0 && nUpdateNavigation < 10)
+    {
+        idUpdateNavigation = window.setTimeout(UpdateNavigation, 500);
+    }
+} if ("function" === typeof(top.SelectCurrentNavigationItem)) top.SelectCurrentNavigationItem('item1189692');UpdateNavigation();$(function() { IframeClickEventHelper.registerDocumentClickBubblingOnTop(); });attachOnReadySendTitleToParent();
+                $(function () {
+                    var ___feedback = 
+(function() {
+var settings = {"cssClasses":["ccl-feedback-information","ccl-feedback-error","ccl-feedback-warning","ccl-feedback-tip","ccl-feedback-functionality"],"feedbackCssClass":"ccl-feedback","undoConfirmationText":null,"maxLinesToDisplayByDefault":1000,"multiline":false,"iconCssClasses":["ili-info-circle","ili-exclamation-circle","ili-exclamation-circle","ili-info-circle","ili-info-circle"]};
+var controls =
+{
+    container: $("#ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_ctl20_C"),
+    messageContainer: $("#ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_ctl20_MC"),
+    textSpan: $("#ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_ctl20_T"),
+    undoLink: $("#ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_ctl20_UL"),
+    closeLink: $("#ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_ctl20_CB"),
+    showMoreLink: $("#ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_ctl20_SML"),
+    showLessLink: $("#ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_ctl20_SLL"),
+    icon: $("#ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_ctl20_IC"),
+};
+
+var functions =
+{
+    onClose: undefined,
+    onUndo: undefined
+};
+var f = new Feedback("ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_ctl20", settings, controls, functions);
+if (undefined){
+    undefined(f);
+};
+return f;
+})();
+                });
+                $(function () {
+                    var ___feedback = 
+(function() {
+var settings = {"cssClasses":["ccl-feedback-information","ccl-feedback-error","ccl-feedback-warning","ccl-feedback-tip","ccl-feedback-functionality"],"feedbackCssClass":"ccl-feedback","undoConfirmationText":null,"maxLinesToDisplayByDefault":1000,"multiline":false,"iconCssClasses":["ili-info-circle","ili-exclamation-circle","ili-exclamation-circle","ili-info-circle","ili-info-circle"]};
+var controls =
+{
+    container: $("#ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_ctl25_C"),
+    messageContainer: $("#ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_ctl25_MC"),
+    textSpan: $("#ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_ctl25_T"),
+    undoLink: $("#ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_ctl25_UL"),
+    closeLink: $("#ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_ctl25_CB"),
+    showMoreLink: $("#ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_ctl25_SML"),
+    showLessLink: $("#ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_ctl25_SLL"),
+    icon: $("#ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_ctl25_IC"),
+};
+
+var functions =
+{
+    onClose: undefined,
+    onUndo: undefined
+};
+var f = new Feedback("ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_ctl25", settings, controls, functions);
+if (undefined){
+    undefined(f);
+};
+return f;
+})();
+                });
+                $(function () {
+                    var ___feedback = 
+(function() {
+var settings = {"cssClasses":["ccl-feedback-information","ccl-feedback-error","ccl-feedback-warning","ccl-feedback-tip","ccl-feedback-functionality"],"feedbackCssClass":"ccl-feedback","undoConfirmationText":null,"maxLinesToDisplayByDefault":1000,"multiline":false,"iconCssClasses":["ili-info-circle","ili-exclamation-circle","ili-exclamation-circle","ili-info-circle","ili-info-circle"]};
+var controls =
+{
+    container: $("#ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid_FB_C"),
+    messageContainer: $("#ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid_FB_MC"),
+    textSpan: $("#ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid_FB_T"),
+    undoLink: $("#ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid_FB_UL"),
+    closeLink: $("#ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid_FB_CB"),
+    showMoreLink: $("#ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid_FB_SML"),
+    showLessLink: $("#ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid_FB_SLL"),
+    icon: $("#ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid_FB_IC"),
+};
+
+var functions =
+{
+    onClose: undefined,
+    onUndo: undefined
+};
+var f = new Feedback("ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid_FB", settings, controls, functions);
+if (undefined){
+    undefined(f);
+};
+return f;
+})();
+                });
+$(function() {
+    var d = new FolderSelector({"clientId":"ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03","hiddenItems":null,"showUnpublishedFolders":false,"dialogClientId":"ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal","gridClientId":"ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_Grid","loadingTreshold":1000,"insertFeedbackClientId":"ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl03_CssModal_ctl25","showBreadCrumbs":"false","closeOnlyAfterSelectionSaved":"false","breadCrumbsSeparator":"/","eventNames":{"open":"open","close":"close","loadStart":"loadStart","loadComplete":"loadComplete","select":"select","gridRender":"gridRender","selectionSaved":"selectionSaved"},"cssClasses":{"folderSelector":"ccl-folderselector","treeContainer":"ccl-folderselector-treecontainer","gridContainer":"ccl-folderselector-gridcontainer","folderLink":"ccl-folderselector-folderlink","itemDescription":"ccl-folderselector-itemdescription","navigateUpLink":"ccl-folderselector-navigateuplink","gridHeader":"ccl-folderselector-gridheader","buttonContainer":"ccl-folderselector-buttoncontainer","selectButton":"ccl-folderselector-selectbutton","selectAndCloseButton":"ccl-folderselector-selectclosebutton","loadingIndicator":"ccl-folderselector-loadingindicator","hidecontents":"hidecontents","selected":"selected","disabled":"disabled","crumbsWrapper":"ccl-folderselector-crumbs-wrapper","crumbs":"ccl-folderselector-crumbs","crumb":"ccl-folderselector-crumb","crumbsSeparator":"ccl-folderselector-crumbs-separator","navigation":"ccl-folderselector-navigation","leftMenuToggler":"ccl-folderselector-menu-toggler","leftMenuTogglerContainer":"ccl-folderselector-menu-toggler-container","filterContainer":"ccl-folderselector-filter-container","desktopTreeContainerVisible":"ccl-folderselector-treecontainer-desktop-visible","desktopTreeContainerHidden":"ccl-folderselector-treecontainer-desktop-hidden","mobileTreeContainerVisible":"ccl-folderselector-treecontainer-mobile-visible","mobileTreeContainerHidden":"ccl-folderselector-treecontainer-mobile-hidden","emptyContent":"ccl-folderselector-emptycontent","progressMessage":"ccl-folderselector-progress-message","content":"ccl-folderselector-content","itemCell":"ccl-folderselector-itemcell"},"terms":{"insertSuccessFeedbackText":"De selectie is toegevoegd.","insertErrorFeedbackText":"Er is een fout opgetreden","insertProgressFeedbackText":"Leerdoelen worden toegevoegd. Een ogenblik geduld."},"feedbackTypes":{"error":1,"info":0},"hideEmptyStateFeedback":false});
+    
+    
+    
+    
+    
+    
+    !function(folderSelector){ 
+var d = new LearningObjectivesSelector("ctl00_ContentPlaceHolder_LearningObjectivesSelector", folderSelector,
+{
+    deleteTooltip: "Verwijderen"
+},
+[],
+{
+    countryCode:  null,
+    courseId: 5269,
+    language: 'nl-NL',
+    selectableSubject: false,
+    selectableCategory: false,
+    selectableObjective: true,
+    readLearningObjectivesUrl: "/RestApi/course/learningobjective/repository/filteredbyid/v1",
+    placeHolderOnEmpty: "",
+    updateContainerOnSelect: false,
+    showTooltip: true,
+    restrictInsertContext: false,
+    folderSelectorEvents: {
+        select: 'select',
+        gridRender: 'gridRender'
+    },
+    defaultFilter: 'course',
+    filtersData: {"course":{"Title":"Uw vak","Value":"course","ReadDataServiceUrl":"/RestApi/course/learningobjective/repository/all/v1?CourseID=5269","Default":false}},
+    cutOffLoStructure: true,
+    clientEvents: {"removeItem":"removeitem","addItems":"additems","selectionChange":"selectionchange","error":"error","loadCompleted":"loadcompleted","itemContainerUpdated":"itemcontainerupdated"}
+},
+{
+    learningObjectivesSelector: "ccl-learningobjectivesselector",
+    filterContainer: "ccl-folderselector-filter-container",
+    selectedContainer: "ccl-learningobjectivesselector-selectedcontainer",
+    emptyContainer: "ccl-learningobjectivesselector-emptycontainer",
+    addLink: "ccl-learningobjectivesselector-add",
+    removeLink: "ccl-learningobjectivesselector-remove",
+    selectedItem: "ccl-learningobjectivesselector-selecteditem",
+    selectedItemIcon: "ccl-learningobjectivesselector-selecteditemicon"
+});$(d).on('selectionchange',function(event, arg){document.getElementById('ctl00_ContentPlaceHolder_LearningObjectivesSelector_ctl00').value = d.selectedIds.join(',');});$(d).on('selectionchange',function(event, arg){window["LearningObjectiveListClientInstanceName"].insertLearningObjectives(this.selectedIds);}); }(d);
+});
+//]]>
+</script>
+</form>
+            <script>
+                CommonFunctions.attachPostMessageEventListener($(window), 'GetWindowLocationUrl', function (data, source) {
+                    {
+                        var message = {
+                            messageName: 'GetWindowLocationUrl',
+                            origin: window.location.protocol + '//' + window.location.host
+                        };
+                        CommonFunctions.makePostMessageCall(source, message);
+                    }
+                });
+                CommonFunctions.attachPostMessageEventListener($(window), CommonWindowMessages.MessageNames.enableFullScreen, function() {
+                    $('body').addClass('full-screen--enabled');
+                    if (window.parent !== window) {
+                        CCL.CommonFunctions.makePostMessageCall(window.parent, new CCL.CommonWindowMessages.GenericMessage(CCL.CommonWindowMessages.MessageNames.enableFullScreen));
+                    }
+                    IframeResizer.reportSetIframeDefaultHeight();
+                });
+                CommonFunctions.attachPostMessageEventListener($(window), CommonWindowMessages.MessageNames.disableFullScreen, function() {
+                    $('body').removeClass('full-screen--enabled');
+                    if (window.parent !== window) {
+                        CCL.CommonFunctions.makePostMessageCall(window.parent, new CCL.CommonWindowMessages.GenericMessage(CCL.CommonWindowMessages.MessageNames.disableFullScreen));
+                    }
+                    IframeResizer.reportSetIframeDefaultHeight();
+                });
+            </script>
+        </div>
+
+        
+        
+    
+<div id="jstree-marker" style="display: none;">»</div><div id="jstree-marker-line" style="display: none;"></div><div id="vakata-contextmenu"></div></body></html>
